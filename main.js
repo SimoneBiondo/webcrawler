@@ -1,8 +1,8 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs'
 
-
-const path = "./test.csv";
+const path_in = process.argv[2];
+const path_out = process.argv[3];
 const browser = await puppeteer.launch();
 
 function streamAsPromise(stream) {
@@ -14,7 +14,7 @@ function streamAsPromise(stream) {
     });
 }
 
-const text = await streamAsPromise(fs.createReadStream(path));
+const text = await streamAsPromise(fs.createReadStream(path_in));
 const domains = text.split('\n').map((text) => (text.split(',')[1]).replace("\r", ""));
 
 async function fetchResults(domains) {
@@ -34,7 +34,7 @@ const results = await fetchResults(domains);
 
 browser.disconnect();
 browser.close();
-csvmaker(results, "results.csv", () => process.exit());
+csvmaker(results, path_out, () => process.exit());
 
 function csvmaker(data, name, onwrite) { 
   
