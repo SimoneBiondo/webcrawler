@@ -1,0 +1,14 @@
+domain,result
+google.com
+,undefined
+facebook.com
+,max-age=15552000; preload
+amazonaws.com
+,unreachable
+a-msedge.net
+,unreachable
+microsoft.com
+,max-age=31536000
+apple.com
+,max-age=31536000; includeSubdomains; preload
+googleapis.com,undefined
