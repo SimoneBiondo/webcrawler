@@ -16,7 +16,6 @@ function streamAsPromise(stream) {
 
 const text = await streamAsPromise(fs.createReadStream(path));
 const domains = text.split('\n').map((text) => (text.split(',')[1]).replace("\r", ""));
-console.log(domains)
 
 async function fetchResults(domains) {
     return await Promise.all(domains.map(async (domain) => {
