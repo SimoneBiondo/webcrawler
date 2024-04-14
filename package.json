@@ -1,5 +1,7 @@
 {
+  "type": "module",
   "dependencies": {
+    "csv-parse": "^5.5.5",
     "puppeteer": "^22.6.4"
   }
 }
