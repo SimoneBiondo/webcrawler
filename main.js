@@ -17,23 +17,26 @@ function streamAsPromise(stream) {
 const text = await streamAsPromise(fs.createReadStream(path));
 const domains = text.split('\n').map((text) => text.split(',')[1]);
 
-const results = []
-for (const domain of domains) {
-    try {
-        const page = await browser.newPage();
-        const response = await page.goto("https://" + domain);
-        const headers = response.headers();
-        results.push(createDict(domain, headers['strict-transport-security'] ?? "undefined"));
-    } catch (error) {
-        results.push(createDict(domain, "unreachable"));
-    }
+async function fetchResults(domains) {
+    return await Promise.all(domains.map(async (domain) => {
+        try {
+            const page = await browser.newPage();
+            const response = await page.goto("https://" + domain);
+            const headers = response.headers();
+            return createDict(domain, headers['strict-transport-security'] ?? "undefined");
+        } catch (error) {
+            return createDict(domain, "unreachable")
+        }
+    }));
 }
+
+const results = await fetchResults(domains);
 
 browser.disconnect();
 browser.close();
-csvmaker(results);
+csvmaker(results, "results.csv", () => process.exit());
 
-function csvmaker(data) { 
+function csvmaker(data, name, onwrite) { 
   
     // Empty array for storing the values 
     const csvRows = []; 
@@ -49,11 +52,13 @@ function csvmaker(data) {
 
     const rowsString = csvRows.join('\n');
 
-    fs.writeFile('results.csv', rowsString, 'utf8', function (err) {
+    fs.writeFile(name, rowsString, 'utf8', function (err) {
         if (err) {
             console.log('Some error occured - file either not saved or corrupted file saved.');
+            onwrite();
         } else{
           console.log('It\'s saved!');
+          onwrite();
         }
     });
 } 
