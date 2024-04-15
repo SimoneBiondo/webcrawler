@@ -41,7 +41,7 @@ class ExecutionManager {
 const CHUNK_SIZE = 20;
 const path_in = process.argv[2];
 const path_out = process.argv[3];
-const browser = await puppeteer.launch();
+const browser = await puppeteer.launch({headless: false});
 
 function streamAsPromise(stream) {
     return new Promise((resolve, reject) => {
@@ -55,6 +55,7 @@ function streamAsPromise(stream) {
 const text = await streamAsPromise(fs.createReadStream(path_in));
 const domains = text.split('\n').map((text) => (text.split(',')[1]).replace("\r", ""));
 
+csvmaker("header", [createDict("fake", "fake")], path_out);
 async function fetchResults(domains) {
 
     const manager = new ExecutionManager();
@@ -84,6 +85,7 @@ async function fetchResults(domains) {
             return finalStep(value);
         }));
         
+        csvmaker("rows", currentResults, path_out)
         resolved.push(currentResults);
     }
     return resolved.flat();
@@ -93,33 +95,38 @@ const results = await fetchResults(domains);
 
 browser.disconnect();
 browser.close();
-csvmaker(results, path_out, () => process.exit());
 
-function csvmaker(data, name, onwrite) { 
+function csvmaker(mode, data, name) { 
   
     // Empty array for storing the values 
     const csvRows = []; 
   
-    const headers = Object.keys(data[0]); 
-    csvRows.push(headers.join(',')); 
-  
-    // Pushing Object values into array with comma separation 
-    for (const obj of data) {
-        const values = Object.values(obj).join(','); 
-        csvRows.push(values) 
+    if (mode === "header") {
+        const headers = Object.keys(data[0]); 
+        csvRows.push(headers.join(','));
+        const rowsString = csvRows.join('\n') + '\n';
+        fs.writeFile(name, rowsString, 'utf8', function (err) {
+            if (err) {
+                console.log('Some error occured - file either not saved or corrupted file saved.');
+            }
+        });
     }
+  
+    if (mode === "rows") {
 
-    const rowsString = csvRows.join('\n');
-
-    fs.writeFile(name, rowsString, 'utf8', function (err) {
-        if (err) {
-            console.log('Some error occured - file either not saved or corrupted file saved.');
-            onwrite();
-        } else{
-          console.log('It\'s saved!');
-          onwrite();
+        // Pushing Object values into array with comma separation 
+        for (const obj of data) {
+            const values = Object.values(obj).join(','); 
+            csvRows.push(values) 
         }
-    });
+
+        const rowsString = csvRows.join('\n') + '\n';
+        fs.appendFile(name, rowsString, 'utf8', function (err) {
+            if (err) {
+                console.log('Some error occured - file either not saved or corrupted file saved.');
+            }
+        });
+    }
 } 
   
 function createDict(domain, result) { 
