@@ -15,9 +15,9 @@ class ExecutionManager {
     };
 
     update(value) {
-        if (value.result === "unreachable") {
+        if (value.hsts === "NA") {
             this.#currentState.unreachableResults += 1;
-        } else if (value.result === "undefined") {
+        } else if (value.hsts === "undefined") {
             this.#currentState.undefinedResults += 1;
         } else {
             this.#currentState.validResults += 1;
@@ -55,7 +55,7 @@ function streamAsPromise(stream) {
 const text = await streamAsPromise(fs.createReadStream(path_in));
 const domains = text.split('\n').map((text) => (text.split(',')[1]).replace("\r", ""));
 
-csvmaker("header", [createDict("fake", "fake")], path_out);
+csvmaker("header", [createDict("NA", "NA", "NA")], path_out);
 async function fetchResults(domains) {
 
     const manager = new ExecutionManager();
@@ -75,9 +75,9 @@ async function fetchResults(domains) {
             try {
                 const response = await page.goto("https://" + domain);
                 const headers = response.headers();
-                value = createDict(domain, headers['strict-transport-security'] ?? "undefined");
+                value = createDict(domain, headers['strict-transport-security'] ?? "undefined", headers['content-security-policy'] ?? "undefined");
             } catch (error) {
-                value = createDict(domain, "unreachable")
+                value = createDict(domain, "NA", "NA")
             } finally {
                 await page.close();
             }
@@ -129,12 +129,13 @@ function csvmaker(mode, data, name) {
     }
 } 
   
-function createDict(domain, result) { 
+function createDict(domain, hstsResult, cspResult) { 
   
     // JavaScript object 
     const data = { 
         domain: domain, 
-        result: result, 
+        hsts: hstsResult,
+        csp: cspResult
     };
   
     return data;
