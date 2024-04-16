@@ -1,0 +1,752 @@
+domain,hsts,csp
+tubepatrol.pro,undefined,undefined
+spip.net,max-age=63072000,undefined
+studyinternational.com,undefined,undefined
+pcolle.com,NA,NA
+womensmarch.com,max-age=63072000,undefined
+crl.godaddy.com,max-age=15552000; includeSubDomains,frame-ancestors 'none'
+stack.com,undefined,undefined
+www.limetorrents.lol,NA,NA
+shopping.bing-shopping.microsoft-falcon.io,undefined,default-src 'none'
+adjaranet.bet,undefined,undefined
+yes.my,max-age=31536000,undefined
+converse.com.mx,max-age=31557600,undefined
+learninsta.com,undefined,undefined
+iteso.mx,undefined,undefined
+www.betano.pt,max-age=15552000; includeSubDomains; preload,undefined
+www.check24.de,max-age=31536000,frame-ancestors check24.de *.check24.de
+misya.info,undefined,undefined
+epapoutsia.gr,max-age=2592000,upgrade-insecure-requests
+esc7.net,max-age=31536000,frame-ancestors 'self' *.edlioadmin.com *.esc7.net
+fast.trychameleon.com,max-age=31536000,undefined
+genina.com,NA,NA
+bestweapon.in,undefined,undefined
+dwt.com,max-age=31536000; includeSubDomains;,default-src 'self' 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-eval' 'unsafe-inline' *.google.com *.google-analytics.com *.googletagmanager.com *.gstatic.com *.googleapis.com siteimproveanalytics.com *.cloudflare.com *.youtube.com *.ytimg.com *.cookielaw.org *.issuu.com *.twitter.com; style-src 'self' 'unsafe-inline' *.googleapis.com; font-src 'self' data: *.googleapis.com *.gstatic.com; img-src 'self' data: *.siteimproveanalytics.io *.cookielaw.org *.google-analytics.com *.ytimg.com *.twitter.com; frame-src 'self' *.google.com *.youtube.com *.ytimg.com vimeo.com *.vimeo.com *.issuu.com *.office.com *.twitter.com *.spotify.com *.soundcloud.com quiz.tryinteract.com *.arcgis.com; connect-src 'self' *.google-analytics.com analytics.google.com *.doubleclick.net vimeo.com *.vimeo.com *.cookielaw.org *.onetrust.com *.issuu.com *.twitter.com; child-src 'self' blob: *.youtube.com *.ytimg.com; frame-ancestors 'self' *.office.com *.twitter.com; upgrade-insecure-requests; block-all-mixed-content;
+vindy.com,undefined,undefined
+kaspyinfo.ru,max-age=15768000,upgrade-insecure-requests;
+k7computing.com,undefined,undefined
+stun.playstation.net,NA,NA
+genshinlab.com,undefined,undefined
+expo-shkola.ru,NA,NA
+adimo.co,undefined,undefined
+m.sni.global.fastly.net,NA,NA
+audrilty.com,max-age=1,undefined
+events.teams.microsoft.com,max-age=2592000,base-uri 'none';default-src 'none';manifest-src 'self';script-src 'self' 'report-sample' https://amp.azure.net;style-src 'self' 'unsafe-inline' 'report-sample' https://amp.azure.net;style-src-attr 'unsafe-inline';img-src 'self' data: https://www.gstatic.com https://amp.azure.net;connect-src 'self' https://config.edge.skype.com https://brbv2.skype.com https://login.microsoftonline.us https://login.microsoftonline.com https://mstvirtualevents.b2clogin.com https://*.microsoft.com https://*.microsoft.us https://*.cloud.microsoft https://api.asm.skype.net https://brbv2.blob.core.windows.net https://amp.azure.net https://*.azurefd.net https://*.media.azure.net https://*.media.usgovcloudapi.net;font-src 'self' data: https://static2.sharepointonline.com https://amp.azure.net;frame-src 'self' https://login.microsoftonline.us https://login.microsoftonline.com https://teams.microsoft.com https://teams.cloud.microsoft https://mstvirtualevents.b2clogin.com https://*.access.rs-mcas.ms https://*.access.mcas.ms https://*.access.mcas-gov.us https://*.access.mcas-gov.ms;form-action 'none';frame-ancestors 'self' https://*.microsoft.com https://*.cloud.microsoft;worker-src 'self' blob: https://amp.azure.net https://*.microsoft.com https://*.cloud.microsoft;media-src blob: https://*.cloud.microsoft https://*.microsoft.com https://*.azurefd.net https://*.media.azure.net https://*.media.usgovcloudapi.net;require-trusted-types-for 'script';trusted-types default dompurify;upgrade-insecure-requests;report-uri https://csp.microsoft.com/report/teams-virtual-events-portal;
+rhino.com,undefined,undefined
+www.google.com.pr,undefined,undefined
+www.denverpost.com,max-age=31536000;includeSubdomains,default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: data: blob: wss://realtimeeventfeeds.viafoura.co wss://sub.viafoura.co; media-src blob: data: https:; object-src https:; child-src https: data: blob:; upgrade-insecure-requests; block-all-mixed-content;
+wsbof.com,NA,NA
+chpoking.ru,undefined,undefined
+umanity.jp,max-age=63072000,undefined
+sampath.lk,max-age=31536000; includeSubDomains,default-src 'self' http://localhost:3000 https://sampath-web.devops.arimac.xyz https://new-testweb.sampath.lk https://sitweb.sampath.lk https://www.sampath.lk 'unsafe-inline'; img-src 'self' data: blob: https://sampath-web.devops.arimac.xyz/* https://*.googleapis.com https://*.gstatic.com https://www.facebook.com *.google.com *.googleusercontent.com; connect-src 'self' https://*.googleapis.com https://*.gstatic.com data: https://www.google-analytics.com https://www.googletagmanager.com https://sampath-web.devops.arimac.xyz/* https://new-testweb.sampath.lk/* https://sitweb.sampath.lk/* https://www.sampath.lk/*; script-src 'sha256-fixYqLzkX83VA1INRLs54g5Xdv1HGBvoOPvHURUr+hY=' 'self' 'self' https://*.googleapis.com *.google.com https://*.gstatic.com https://www.recaptcha.net/recaptcha/api.js https://sampath-web.devops.arimac.xyz/* https://new-testweb.sampath.lk/* https://sitweb.sampath.lk/* https://www.sampath.lk/*; style-src 'unsafe-inline' 'self' https://www.gstatic.com/charts/51/* https://*.gstatic.com https://*.googleapis.com https://use.fontawesome.com/releases/v5.7.1/css/all.css; media-src 'self' https://storage.googleapis.com/arimac-storage/sampath/card_39mb%20(1).mp4; frame-src 'self' https://sea-sam-chatbot-webapp-bot-prod.azurewebsites.net/ https://www.recaptcha.net https://www.youtube.com https://www.facebook.com/ https://web.facebook.com/; script-src-elem 'self' 'unsafe-inline' https://*.googleapis.com *.google.com https://*.gstatic.com https://www.googletagmanager.com https://connect.facebook.net https://www.recaptcha.net/recaptcha/api.js https://sampath-web.devops.arimac.xyz/* https://new-testweb.sampath.lk/* https://sitweb.sampath.lk/* https://www.sampath.lk/*; font-src 'self' https://fonts.gstatic.com https://use.fontawesome.com/releases/v5.7.1/webfonts/
+perfectgift.com,max-age=63072000,undefined
+toutatice.fr,NA,NA
+amazingtalker.com,undefined,undefined
+4patriots.com,max-age=7889238,block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+redporn.xxx,undefined,undefined
+midatacredito.com,NA,NA
+h30434.www3.hp.com,undefined,undefined
+xxx-premium.com,NA,NA
+velonews.com,max-age=31622400,frame-ancestors 'self' *.vercel.app *.rivt.com rivt.com *.outsideapi.com outsideapi.com *.pocketoutdoormedia.com outsideinc.com pocketoutdoormedia.com *.outsideinc.com velopress.com *.velopress.com *.mycoloradoparks.com mycoloradoparks.com *.rockandice.com rockandice.com *.theboxmag.com theboxmag.com *.nationalparktrips.com nationalparktrips.com  *.nationalparktripsmedia.com nationalparktripsmedia.com *.betamtb.com betamtb.com *.mysmokymountainpark.com mysmokymountainpark.com *.myolympicpark.com myolympicpark.com *.climbing.com climbing.com *.backpacker.com backpacker.com *.podiumrunner.com podiumrunner.com *.skimag.com skimag.com myutahparks.com *.myutahparks.com *.mygrandcanyonpark.com mygrandcanyonpark.com *.oxygenmag.com oxygenmag.com *.triathlete.com triathlete.com velonews.com *.velonews.com muscleandperformance.com *.muscleandperformance.com *.outsidebusinessjournal.com outsidebusinessjournal.com snewsnet.com *.snewsnet.com gymclimber.com *.gymclimber.com livebeyoga.com *.yogajournal.com yogajournal.com *.livebeyoga.com womensrunning.com *.womensrunning.com trailrunnermag.com *.trailrunnermag.com outsideonline.com *.outsideonline.com *.betternutrition.com betternutrition.com vegetariantimes.com *.vegetariantimes.com cleaneating.com *.cleaneatingmag.com cleaneatingmag.com *.cleaneating.com *.thenaturx.com thenaturx.com *.yellowstonepark.com yellowstonepark.com *.myyellowstonepark.com myyellowstonepark.com myyosemitepark.com *.myyosemitepark.com *.rollmassif.com rollmassif.com *.getcairn.com getcairn.com *.athletereg.com athletereg.com *.finisherpix.com finisherpix.com *.pinkbike.com pinkbike.com *.pinkbike.org pinkbike.org *.bikereg.com bikereg.com *.runreg.com runreg.com *.trireg.com trireg.com *.skireg.com skireg.com *.pledgereg.com pledgereg.com *.gaiagps.com gaiagps.com *.trailforks.com trailforks.com
+enrollments.api.brightspace.com,NA,NA
+bidv.vn,undefined,undefined
+qconline.com,max-age=31536000; includeSubDomains; preload,upgrade-insecure-requests
+nyugat.hu,undefined,undefined
+juegosarea.com,max-age=63072000,undefined
+bmicc.ir,NA,NA
+www4.whentowork.com,undefined,undefined
+dagstuhl.de,max-age=31536000,undefined
+www.farmers.com,max-age=15768000 ; includeSubDomains ; preload,undefined
+nksupport.com,undefined,undefined
+www.brooksrunning.com,undefined,frame-ancestors 'self'
+mediag2481ed.airspace-a.cbsivideo.com,undefined,undefined
+360.yandex.ru,undefined,default-src 'none'; script-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ 'unsafe-eval' 'nonce-Y51KeWRSOlayQn/hQd6DrQ==' 'self' 'unsafe-inline' mc.yandex.ru mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org mc.admetrica.ru yastatic.net; style-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ 'unsafe-inline' 'self' fonts.googleapis.com; font-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ fonts.gstatic.com; media-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ 'unsafe-inline' 'self' storage.yandexcloud.net s3.mds.yandex.net; img-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ 'self' data: blob: mc.yandex.ru mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org mc.admetrica.ru yastatic.net downloader.disk.yandex.ru downloader.disk.yandex.net yandex.ru favicon.yandex.net storage.yandexcloud.net s3.mds.yandex.net avatars.mds.yandex.net *.storage.yandex.net *.disk.yandex.net; connect-src yandex.ru mc.yandex.ru mc.yandex.az mc.yandex.by mc.yandex.co.il mc.yandex.com mc.yandex.com.am mc.yandex.com.ge mc.yandex.com.tr mc.yandex.ee mc.yandex.fr mc.yandex.kg mc.yandex.kz mc.yandex.lt mc.yandex.lv mc.yandex.md mc.yandex.ru mc.yandex.tj mc.yandex.tm mc.yandex.ua mc.yandex.uz mc.webvisor.com mc.webvisor.org mc.admetrica.ru yandexmetrica.com:* 'self' api.passport.yandex.ru mail.yandex.ru https://pdd.yandex.ru:* https://pdd.yandex.com:* api-stable.dst.yandex.ru cloud-api.yandex.ru yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/; frame-src yastatic.net https://*.static-dev.mail.yandex.net/s3/psf/ 'self' blob: mc.yandex.ru forms.yandex.ru www.youtube.com yandex.ru trust.yandex.ru; child-src 'self' blob: mc.yandex.ru; base-uri 'self'; frame-ancestors 'self' https://*.webvisor.com https://metrika.yandex.com https://metrika.yandex.ru; report-uri https://csp.yandex.net/csp?from=tuning&project=tuning&yandex_login=&yandexuid=6838769421713300821;
+facturatech.co,undefined,undefined
+quantech.cc,NA,NA
+ihep.ac.cn,undefined,undefined
+pspcl.in,NA,NA
+ennovelass.cam,undefined,undefined
+weareher.com,max-age=63072000; includeSubDomains; preload;,undefined
+recantodasletras.com.br,max-age=15768000,undefined
+htv-net.ne.jp,NA,NA
+optnmstr.com,undefined,undefined
+gastronomos.gr,undefined,undefined
+idemia.com,max-age=31536000; includeSubdomains; preload,default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.idemia-group.com *.twimg.com *.bootstrapcdn.com *.googleapis.com *.idemia.com *.jsdelivr.net *.cloudflare.com *.cookiebot.com *.youtube.com *.pardot.com *.google-analytics.com *.gravatar.com unpkg.com *.googletagmanager.com *.gstatic.com *.google.com *.vimeo.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: *.idemia-group.com *.twimg.com *.bootstrapcdn.com *.googleapis.com *.idemia.com *.jsdelivr.net *.cloudflare.com *.cookiebot.com *.youtube.com *.pardot.com *.google-analytics.com *.gravatar.com unpkg.com *.googletagmanager.com *.gstatic.com *.google.com *.vimeo.com; object-src 'none'
+frame-ancestors 'self' theline.idemia.com;
+planetspark.in,undefined,undefined
+tvem.cdn.turner.com,undefined,undefined
+wcdn.co.il,NA,NA
+livius.org,undefined,undefined
+bola006.com,undefined,undefined
+primaverasound.com,undefined,undefined
+portalpasazera.pl,undefined,style-src 'self' https://fonts.googleapis.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ 'unsafe-inline' 'unsafe-eval'; script-src 'self' https://apis.google.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.googletagmanager.com/gtag/ https://region1.googletagmanager.com *.perfdrive.com 'unsafe-inline' 'unsafe-eval'; frame-src 'self' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://bilet.kolejeslaskie.com/ https://bilet.kolejeslaskie.com/BiletParametry youtube.com www.youtube.com 'unsafe-inline' 'unsafe-eval'; font-src 'self' https://fonts.gstatic.com; object-src 'none'; frame-ancestors 'none'; img-src 'self' https://region1.google-analytics.com https://region1.analytics.google.com https://region1.googletagmanager.com https://region1.g.doubleclick.net https://region1.google.com data: blob:; connect-src 'self' https://region1.google-analytics.com https://region1.analytics.google.com https://region1.googletagmanager.com https://region1.g.doubleclick.net https://region1.google.com *.perfdrive.com; sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-downloads; base-uri 'self'; default-src 'self';
+to4ka.fun,undefined,undefined
+zohostatic.eu,max-age=63072000,undefined
+p141-fmfmobile.icloud.com,max-age=31536000; includeSubDomains;,undefined
+083515.com,undefined,undefined
+www.glamour.de,undefined,undefined
+www.talent.com,undefined,default-src 'self' *.talent.com *.neuvoo.com neuvoo.com neuvoo.ca *.acsbapp.com acsbapp.com js.stripe.com fonts.gstatic.com fonts.googleapis.com *.google.com *.doubleclick.net s3.amazonaws.com *.googlesyndication.com *.atlassian.net *.googleapis.com *.cookielaw.org *.onetrust.com *.bing.com *.cloudflare.com; img-src https: 'unsafe-inline' data: 'unsafe-eval' 'unsafe-inline' blob:; script-src https: 'unsafe-inline'; style-src https: 'unsafe-inline'; frame-ancestors 'self' www.jobs-im-suedwesten.de www.energyjobline.com www.onlyengineerjobs.com www.meinestelle.de www.startus.cc www.mapmeo.com www.papa-jobs.ch job.kurier.at www.jobs-in-chemie.de www.med-jobs.com; frame-src *.google.com *.doubleclick.net *.googlesyndication.com *.talent.com talent.com *.stripe.com *.atlassian.net *.adsensecustomsearchads.com *.hotjar.com; worker-src data: *.talent.com 'unsafe-eval' 'unsafe-inline' blob:;
+moslenta.ru,undefined,undefined
+storeimg.heytapimg.com,NA,NA
+pc-egg.com,undefined,undefined
+nic.zone,NA,NA
+www.convertunits.com,undefined,undefined
+highwaybus.com,NA,NA
+r3.com,max-age=31536000; includeSubDomains,undefined
+lovesite.click,max-age=31536000,undefined
+audian.com,max-age=31536000;includeSubDomains;preload,default-src 'self' data: 'unsafe-inline' 'unsafe-eval' https://*.stg.audian.com https://*.audian.com https://*.typekit.com https://*.typekit.net https://www.google.com/recaptcha/ https://*.googletagmanager.com https://*.googleapis.com https://*.tawk.to https://tawk.link https://fonts.gstatic.com https://www.gstatic.com https://*.stg.audian.com:8443 https://*.statuspage.io https://cdn.jsdelivr.net https://www.google-analytics.com https://maps.google.com wss://*.tawk.to;frame-ancestors 'self';report-uri https://sentry.audian.com:49443/api/18/security/?sentry_key=612819db7da642ecabae6c0db8dd5a3e&sentry_environment=production
+bunkr.media,undefined,undefined
+hrtc.ir,max-age=2592000; includeSubDomains; preload,undefined
+rr3---sn-q4fl6nsl.googlevideo.com,undefined,undefined
+e1722.x.akamaiedge.net,NA,NA
+tgbus.com,undefined,undefined
+socket.tidio.co,undefined,undefined
+somosohlala.com,undefined,undefined
+javfinder.ai,undefined,undefined
+sync.viewdeos.com,NA,NA
+appleid.com,max-age=31536000; includeSubDomains; preload,default-src 'self' ; connect-src 'self' https://www.apple.com https://appleid.cdn-apple.com https://appleid.apple.com https://api.apple-cloudkit.com https://feedbackws.apple-cloudkit.com https://*.icloud-content.com ; font-src 'self' https://www.apple.com https://appleid.cdn-apple.com ; frame-src 'self' https://idmsa.apple.com https://signin.apple.com https://gsa.apple.com https://idmsa.apple.com.cn https://familyws.icloud.apple.com  https://apps.apple.com ; img-src 'self' https://www.apple.com https://appleid.cdn-apple.com data: https://*.mzstatic.com https://appleid.apple.com https://*.icloud.com ; media-src data: ; object-src 'none' ; script-src 'self' https://www.apple.com https://appleid.cdn-apple.com https://idmsa.apple.com https://signin.apple.com https://gsa.apple.com https://idmsa.apple.com.cn ; style-src 'unsafe-inline' 'self' https://www.apple.com https://appleid.cdn-apple.com ;
+careerlauncher.com,max-age=31536000; includeSubDomains; preload,undefined
+solve-api.forethought.ai,max-age=15724800; includeSubDomains,undefined
+mixernew.com,undefined,undefined
+skiinfo.fr,undefined,undefined
+tmsgameapi.com,NA,NA
+snrbox.com,undefined,frame-ancestors 'self'
+linkedin.edgesuite.net,NA,NA
+raidc.com,NA,NA
+ndsoftdns.com,NA,NA
+cylex-uk.co.uk,max-age=15552000; includeSubDomains; preload,frame-ancestors *.cylex-uk.co.uk
+file.zoom.us,NA,NA
+oncf-voyages.ma,max-age=16070400; includeSubDomains,undefined
+401games.ca,NA,NA
+cloudlayout.io,undefined,undefined
+od.linkedin.edgesuite.net,NA,NA
+irz42.net,undefined,undefined
+arena-diplomers.com,NA,NA
+catalent.com,max-age=63072000; includeSubdomains,default-src * 'self' data: 'unsafe-inline' 'unsafe-eval' asset: blob: ws: wss: filesystem:; object-src 'none'; form-action 'self'; upgrade-insecure-requests; block-all-mixed-content
+www.houstonchronicle.com,undefined,undefined
+intersystems.com,max-age=63072000,frame-ancestors https://*.cms.intersystems.psdops.com https://*.intersystems.psdops.com https://*.intersystems.com https://*.intersystems.cn
+acesso.psi.br,NA,NA
+fudzilla.com,undefined,undefined
+vipxdns.com,NA,NA
+teacher-toolbox.i-ready.com,max-age=31536000 ; includeSubDomains,frame-ancestors 'self' https://*.i-ready.com https://teacher-toolbox.com http://localhost:8080
+betuscdn.com,undefined,undefined
+osff.map.fastly.net,NA,NA
+rondo.cz,undefined,undefined
+rejestr.io,undefined,undefined
+html.design,max-age=31536000,upgrade-insecure-requests
+london-fire.gov.uk,max-age=31536000,default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; img-src  * data:;connect-src * wss:
+magistv.video,NA,NA
+sync.sync.viewdeos.com,undefined,undefined
+mangalear.blog,undefined,undefined
+xxxmovies.su,max-age=63072000;,undefined
+doramytop.com,undefined,undefined
+cakewalk.com,undefined,undefined
+springyaws.com,NA,NA
+vporno.video,NA,NA
+www.outreachtime.com,max-age=31536000,default-src https:; img-src https: data: blob:; script-src https: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline' 'unsafe-eval'; connect-src https: wss:; font-src https: data: 'unsafe-inline' 'unsafe-eval';
+desipornx.org,undefined,undefined
+gcsd.global.sonicwall.com,NA,NA
+fhwn.ac.at,max-age=15768000,undefined
+traicy.com,undefined,undefined
+qtarget.tech,NA,NA
+ods-incidents-d2ehgrd4c4ayfegw.z01.azurefd.net,NA,NA
+payloadz.com,undefined,undefined
+aupaathletic.com,undefined,undefined
+com.danuoyi.tbcache.com,NA,NA
+home-ip.tv,undefined,undefined
+scratchstakes.com,undefined,undefined
+carolinaherrera.com,max-age=63072000; includeSubDomains,default-src 'self'; style-src https: 'unsafe-inline'; style-src-elem https: 'unsafe-inline'; script-src https: 'unsafe-inline' 'unsafe-eval'; connect-src https: data: wss: blob:; font-src https: data:; frame-src https:; img-src https: data: 'self'; worker-src blob: https:; media-src blob: https:; frame-ancestors 'self' https://www.sephora.ae/ https://perfumeriafirst.com/
+www.vogue.co.uk,undefined,undefined
+24videos.name,undefined,undefined
+test-hf.su,NA,NA
+lo4d.com,undefined,undefined
+webtv.net,NA,NA
+mobpanda.dev,NA,NA
+tuxedo.org,undefined,undefined
+my.stubhub.com,max-age=31536000,undefined
+ablogtowatch.com,undefined,undefined
+unibocconi.it,undefined,undefined
+flare.network,undefined,undefined
+cnmc.es,NA,NA
+adengine.snigelweb.com,undefined,undefined
+lgcity.ru,undefined,undefined
+online-kora.tv,max-age=31536000,undefined
+elephantdrive.com,undefined,undefined
+pghcitypaper.com,undefined,frame-ancestors 'self'
+www.prevention.com,max-age=31557600; includeSubDomains,upgrade-insecure-requests; default-src https: data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:;
+cmoney.tw,NA,NA
+beistravel.com,max-age=7889238,block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+accessbanking.com.ar,NA,NA
+mon.gov.ua,max-age=31557600,undefined
+sexvideos.fyi,undefined,undefined
+appliedmed.com,undefined,undefined
+contentmedia.eu,NA,NA
+nesiatimes.com,max-age=31536000; includeSubDomains; preload,undefined
+glaro.ch,undefined,undefined
+cookomix.com,max-age=31536000; includeSubDomains,undefined
+hakodate.or.jp,undefined,undefined
+freehentaistream.com,max-age=31536000; includeSubDomains; preload,undefined
+de.linkedin.com,max-age=31536000,default-src 'none'; connect-src 'self' *.licdn.com *.linkedin.com cdn.linkedin.oribi.io dpm.demdex.net/id lnkd.demdex.net blob: accounts.google.com/gsi/ linkedin.sc.omtrdc.net/b/ss/ v.clarity.ms/collect *.microsoft.com *.adnxs.com *.tealiumiq.com login.microsoftonline.com; script-src 'report-sample' 'sha256-th47JTnh6tX15SUn/I+GGmsOSXpa7dh5Skner77gxlY=' 'sha256-SSoodjUD3LGm2FfFCVHGqEb8D4UM3OOigidT2UKDcYg=' 'sha256-cKTgdnmO6+hXd85a9wKg1effVfVzenUAtUCyOKY9bQE=' 'sha256-DwtT8+ZZKpxH9pqZNAmJ3GdbLAh5SsYaXR3omTXPCns=' 'sha256-sV9jZa797T0QWBzcU/CNd4tpBhTnh+TFdLnfjlitl28=' 'sha256-aa/Q8CRBDSqTQbCIyioPhZaz+G+dbPyu7BzsjInEmiU=' 'sha256-THuVhwbXPeTR0HszASqMOnIyxqEgvGyBwSPBKBF/iMc=' 'sha256-zTIusdVJJeXz9+iox2a+pdDglzbpRpFVRzEwvW4AONk=' 'sha256-iC8MPqNLw0FDnsBf4DlSkFLNTwhkI85aouiAEB819ic=' 'sha256-2EqrEvcPzl8c6/TSGVvaVMEe7lg700MAz/te4/3kTYY=' 'sha256-y5uW69VItKj51mcc7UD9qfptDVUqicZL+bItEpvVNDw=' 'sha256-DatsFGoJ8gFkzzxo47Ou76WZ+3QBPOQHtBu9p9b3DhA=' 'sha256-k95cyM8gFgPziZe5VQ2IvJvBUVyd5zFt2CokIUwqdHE=' 'sha256-PyCXNcEkzRWqbiNr087fizmiBBrq9O6GGD8eV3P09Ik=' 'sha256-RFqsjmAF1N5LnfpaHFvPqFlVkeIS/DtTAFor+JjJJVc=' 'sha256-2SQ55Erm3CPCb+k03EpNxU9bdV3XL9TnVTriDs7INZ4=' 'sha256-S/KSPe186K/1B0JEjbIXcCdpB97krdzX05S+dHnQjUs=' 'sha256-9pXOIwF4N0gPltLd3AI69lkCjSC2H/Eb3sc5zdmUyYU=' 'sha256-jou6v/Nleyzoc+LXktAv1Fp8M807dVVxy7E/yzVljHc=' 'sha256-6E4e/3dSvj/8JZT2S2yR91mspqM6MyOpKl5lrhHsZa8=' 'sha256-3woF8BZ54TeXM+czaH3aXoaJsVpiamuAKFsXDykAR/Q=' 'sha256-vIfNcKb8ixJg1cfJIoNNYjWcm0lezj1/XpUNFiZyVsU=' 'sha256-cLsHUHFgT/VGX04cZrJ9xgm4HbzTR7ptutkxK+7BlMk=' 'sha256-BwU8jMnQYUhjOpsDVABpfddV/DlP1ZYrFcTumYw7x54=' 'sha256-wz6ika9i3WU3bpUPdhYDZeO/NrDQniDyiscN0LWnyaY=' static.licdn.com static-exp1.licdn.com static-exp2.licdn.com static-exp3.licdn.com platform.linkedin.com platform-akam.linkedin.com platform-ecst.linkedin.com platform-azur.linkedin.com snap.licdn.com www.googletagmanager.com/gtag/js; img-src data: blob: * android-webview-video-poster:; font-src data: *; style-src 'self' 'unsafe-inline' static.licdn.com static-exp1.licdn.com static-exp2.licdn.com static-exp3.licdn.com; media-src 'self' *.licdn.com *.lynda.com; worker-src 'self' blob: static.licdn.com static-exp1.licdn.com static-exp2.licdn.com static-exp3.licdn.com; frame-src 'self' www.youtube.com/embed/ www.youtube-nocookie.com/embed/ lnkd.demdex.net smartlock.google.com accounts.google.com player.vimeo.com *.linkedin.com www.slideshare.net *.megaphone.fm *.omny.fm *.sounder.fm msit.powerbi.com app.powerbi.com linkedin.github.io *.licdn.com *.adnxs.com acdn.adnxs-simple.com radar.cedexis.com edge-auth.microsoft.com; frame-ancestors 'self' *.www.linkedin.com:*; manifest-src 'self'; report-uri https://www.linkedin.com/security/csp?f=gg
+noveltoon.mobi,undefined,undefined
+www.mytheresa.com,max-age=2628000 ; includeSubDomains ; preload,undefined
+theatlanticcities.com,NA,NA
+vistaauction.com,undefined,undefined
+nexogy.net,NA,NA
+3ssem.gold,max-age=31536000,undefined
+velux.com,undefined,undefined
+www.zipformplus.com,undefined,undefined
+citonline.com,NA,NA
+worldtimezone.com,undefined,undefined
+rubiconredirect.com,max-age=31536000 ; includeSubDomains,undefined
+imperialfashion.com,undefined,undefined
+superpuper.ru,undefined,script-src 'self' 'unsafe-inline' 'unsafe-eval' *.jivosite.com cdnjs.cloudflare.com www.google-analytics.com ajax.googleapis.com apis.google.com www.google.com www.gstatic.com yastatic.net yandex.st *.maps.yandex.net *.yandex.ru browser-update.org vk.com; report-uri /__cspreporting__;
+mississippitoday.org,max-age=31536000,undefined
+customs.go.jp,NA,NA
+banflix.com,undefined,undefined
+newyork1.vip.townnews.com,NA,NA
+immunotec.com,max-age=15552000,undefined
+www.cimbclicks.com.my,max-age=31536000; includeSubDomains; preload,undefined
+elliptic.co,max-age=31536000,upgrade-insecure-requests
+dl.dropboxusercontent.com,max-age=31536000; includeSubDomains; preload,undefined
+optimabank.kg,undefined,undefined
+globaltruck.ru,undefined,undefined
+hlmiq.com,undefined,undefined
+test.mapnwea.org,max-age=31536000; includeSubDomains,default-src 'self' 'unsafe-inline' blob: https://cdn.mapnwea.org https://*.mapnwea.org https://*.google-analytics.com https://player.vimeo.com https://bam.nr-data.net https://www.youtube.com; connect-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.mapnwea.org https://*.mapnwea.org https://heapanalytics.com https://*.heapanalytics.com https://*.google-analytics.com https://*.newrelic.com https://bam.nr-data.net https://*.speechstream.net https://*.auryc.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://cdn.mapnwea.org https://static.nwea.org https://*.mapnwea.org https://heapanalytics.com https://*.heapanalytics.com https://*.google-analytics.com https://www.googletagmanager.com https://*.newrelic.com https://bam.nr-data.net https://*.speechstream.net; style-src 'self' 'unsafe-inline' blob: https://cdn.mapnwea.org https://*.mapnwea.org https://heapanalytics.com https://*.heapanalytics.com https://fonts.googleapis.com; font-src 'self' 'unsafe-inline' data: https://cdn.mapnwea.org https://*.mapnwea.org https://heapanalytics.com https://*.heapanalytics.com https://fonts.gstatic.com https://*.auryc.com; img-src 'self' data: https://cdn.mapnwea.org https://*.mapnwea.org https://*.nwea.org https://heapanalytics.com https://*.heapanalytics.com https://*.google-analytics.com https://bam.nr-data.net https://*.auryc.com; frame-ancestors 'self' https://*.mapnwea.org;
+tizoo.com,undefined,undefined
+responsetap.com,undefined,undefined
+yapolitic.ru,max-age=31536000;,undefined
+c6dn.net,NA,NA
+somatematica.com.br,undefined,undefined
+gannett.map.fastly.net,NA,NA
+purechatcdn.com,undefined,undefined
+stellate.sh,NA,NA
+cargotec.com,undefined,undefined
+www.dochub.com,max-age=15552000; includeSubDomains; preload,undefined
+www.yourdictionary.com,undefined,undefined
+ville-ge.ch,"max-age=31536000;",undefined
+clips.twitch.tv,max-age=31536000,undefined
+defenseromania.ro,max-age=31536000; includeSubDomains; preload,undefined
+www.myschoolbucks.com,NA,NA
+foxepin.com,undefined,undefined
+www.golfgenius.com,undefined,undefined
+centraldepasajes.com.ar,undefined,undefined
+shop2game.com,undefined,undefined
+kinotip2.cz,NA,NA
+ezanvaktipro.com,undefined,undefined
+creanova.org,NA,NA
+elevateapp.com,undefined,undefined
+attackofthefanboy.com,undefined,undefined
+push-rtmp-hs-spe-f5.douyincdn.com,undefined,undefined
+ns35.de,NA,NA
+sciencenewsforstudents.org,max-age=300,undefined
+telnavi.jp,undefined,undefined
+viewasian.co,NA,NA
+yoafrica.com,NA,NA
+ntl.cloud,NA,NA
+radiohost.de,max-age=63072000,undefined
+www.deutschlandfunk.de,max-age=31536000,undefined
+ecouterradioenligne.com,undefined,undefined
+ump.edu.my,undefined,undefined
+apps.ilsos.gov,undefined,undefined
+girls-chat.tv,undefined,undefined
+www.info.com,max-age=10886400,undefined
+p106-contacts.icloud.com,max-age=31536000; includeSubDomains;,undefined
+partner-its.ru,max-age=31536000; includeSubDomains,frame-ancestors 'self';
+biathlon.com.ua,undefined,undefined
+intheknow.com,max-age=31536000; includeSubDomains,undefined
+edtechmagazine.com,undefined,undefined
+xn--d1achcanypala0j.xn--p1ai,undefined,undefined
+iranianuk.com,NA,NA
+weddingchicks.com,NA,NA
+boombeachgame.com,NA,NA
+porvenir.com.co,max-age=31536000,frame-ancestors 'self'
+www.flexmls.com,undefined,undefined
+pull-cmaf-f16-va01.tiktokcdn.com.akamaized.net,NA,NA
+tripadvisor.com.vn,undefined,undefined
+ebuyclub.com,max-age=15724800; includeSubDomains,undefined
+sidechat.lol,max-age=15552000,undefined
+pandrama.tv,max-age=0;,undefined
+dn.mylexia.com,undefined,undefined
+webnovelworld.org,max-age=15552000; includeSubDomains; preload
+max-age=31536000,undefined
+bee121.com,undefined,undefined
+www.lawinsider.com,undefined,undefined
+solution.weborama.fr,NA,NA
+whatsonstage.com,max-age=31536000;includeSubdomains;preload,undefined
+aetnadigital.com,NA,NA
+mangakyo.vip,undefined,undefined
+apiproxy-logging-s3-2f6e65ada0fecdc5.elb.us-west-2.amazonaws.com,NA,NA
+naretol.com,undefined,undefined
+cambriausa.com,max-age=63072000; includeSubdomains;,undefined
+ishareit.net,NA,NA
+www.fark.com,max-age=2592000; includeSubDomains; preload,undefined
+a1-66.akam.net,NA,NA
+gbtpa.com.au,NA,NA
+snapp-box.com,undefined,undefined
+hiphopkit.com,undefined,undefined
+infomigrants.net,undefined,undefined
+luminarium.org,undefined,undefined
+doramafox.club,max-age=2628000,upgrade-insecure-requests;
+graziamagazine.com,undefined,undefined
+hookupsearch.net,undefined,undefined
+tesera.ru,undefined,undefined
+www.ahajournals.org,max-age=2592000,undefined
+demandforced3.com,max-age=31536000; includeSubDomains,frame-src 'self'; frame-ancestors 'self'; object-src 'none';
+gudfilm1.art,NA,NA
+queen.gr,max-age=15768000; includeSubdomains; preload,undefined
+m.douban.com,max-age=15552000,undefined
+nomad-cloud.jp,NA,NA
+pawpartner.com,undefined,undefined
+nexhealth.com,NA,NA
+clearpay.com,max-age=2592000; includeSubDomains; preload,script-src 'self' 'unsafe-eval' 'unsafe-inline' *.afterpay.com *.clearpay.co.uk *.clearpay.com *.googleapis.com public.fbot.me static.fbot.me campaign.fbot.me lcx-embed.bambuser.com www.googletagmanager.com *.onetrust.com *.cookielaw.org *.bizible.com hbiq.net cdn.branch.io sc-static.net snap.licdn.com connect.facebook.net munchkin.marketo.net www.googleadservices.com cdn.dashhudson.com djnf6e5yyirys.cloudfront.net cdn.builder.io t.contentsquare.net www.google-analytics.com googleads.g.doubleclick.net app.link v5tufwer.micpn.com pi.pardot.com tag.clearbitscripts.com/v1/pk_ba428737ee82fd942f13030da0c2629b/tags.js tag.rmp.rakuten.com metadata-static-files.sfo2.cdn.digitaloceanspaces.com/pixel/lp.js x.clearbitjs.com/v2/pk_ba428737ee82fd942f13030da0c2629b/tracking.min.js x.clearbitjs.com/v2/pk_ba428737ee82fd942f13030da0c2629b/destinations.min.js analytics.tiktok.com bat.bing.com/bat.js bat.bing.com/p/action/137009782.js afterpay-business-site.vercel.app afterpay-consumer-content-hub.vercel.app cdn.amplitude.com *.adsrvr.org *.pinimg.com *.snapchat.com j.6sc.co tag.demandbase.com www.workwithsquare.com; img-src * data:; object-src 'none'; base-uri 'none';
+violanews.com,undefined,undefined
+receivedachest.com,undefined,undefined
+plena.finance,undefined,frame-ancestors 'self'
+connectingsingles.com,undefined,undefined
+degentevakana.com,NA,NA
+sandro-paris.com,max-age=7776000; includeSubDomains,undefined
+pluginmanagerconfig1.info,NA,NA
+fakespot.io,NA,NA
+webnode.it,max-age=15768000,default-src *;script-src 'self' resource://pdf.js 'unsafe-hashes' 'unsafe-inline' 'unsafe-eval' *.teamblue.services d1rv23qj5kas56.cloudfront.net d3nn3278imm5nr.cloudfront.net d1di2lzuh97fh2.cloudfront.net duyn491kcolsw.cloudfront.net events.webnode.com js.stripe.com www.gstatic.com www.googleadservices.com www.googletagmanager.com bat.bing.com connect.facebook.net a.quora.com www.google-analytics.com googleads.g.doubleclick.net c.imedia.cz www.google.com www.google.de www.google.com.br cdn.inspectlet.com *.clarity.ms *.bing.com c.seznam.cz pagead2.googlesyndication.com s.yimg.jp cdn.euc-freshbots.ai blob: euc-widget.freshworks.com/widgets/101000002785.js euc-widget.freshworks.com/widgetBase/ b98.yahoo.co.jp https://s.pinimg.com https://track.adform.net https://s2.adform.net;style-src 'self' 'unsafe-inline' 'unsafe-eval' d1rv23qj5kas56.cloudfront.net d3nn3278imm5nr.cloudfront.net www.gstatic.com js.stripe.com d11bh4d8fhuq47.cloudfront.net d1di2lzuh97fh2.cloudfront.net duyn491kcolsw.cloudfront.net use.typekit.net p.typekit.net cdn.euc-freshbots.ai euc-widget.freshworks.com/widgetBase/static/media/;img-src 'self' data: mediastream: blob: filesystem: *.teamblue.services d1rv23qj5kas56.cloudfront.net d3nn3278imm5nr.cloudfront.net du5rkdszt1kq5.cloudfront.net d11bh4d8fhuq47.cloudfront.net d1bz77arbww182.cloudfront.net d1me9yvfki5736.cloudfront.net d6scj24zvfbbo.cloudfront.net *.pbhom-cdnwnd.com *.cbaul-cdnwnd.com *.clvaw-cdnwnd.com www.webnode.com www.gstatic.com q.stripe.com bat.bing.com q.quora.com www.google.com www.google.cz www.google.de www.google.com.br www.google-analytics.com googleads.g.doubleclick.net cx.atdmt.com c.seznam.cz www.facebook.com www.googletagmanager.com *.clarity.ms *.bing.com *.webnode.com *.webnode.cz *.webnode.sk *.webnode.at *.webnode.es *.webnode.cl *.webnode.com.ve *.webnode.com.uy *.webnode.mx *.webnode.com.co *.webnode.co *.webnode.com.ar *.webnode.com.py *.webnode.bo *.webnode.do *.webnode.ec *.webnode.pe *.webnode.cr *.webnode.com.br *.webnode.pt *.webnode.it *.webnode.fr *.webnode.us *.webnode.in *.webnode.gr *.webnode.com.tr *.webnode.cn *.webnode.tw *.webnode.nl *.webnode.be *.webnode.jp *.webnode.hu *.webnode.ru *.webnode.com.ua *.webnode.se *.webnode.dk *.webnode.lv *.webnode.hr *.webnode.no *.webnode.co.uk *.webnode.vn *.webnode.ro *.webnode.cat *.webnode.kr *.webnode.fi ct.capterra.com d1di2lzuh97fh2.cloudfront.net duyn491kcolsw.cloudfront.net cdn.euc-freshbots.ai cdn.freshbots.ai fc-euc1-00-pics-bkt-00.s3.eu-central-1.amazonaws.com https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/ https://ct.pinterest.com https://track.adform.net https://server.seadform.net/serving/cookie/;frame-ancestors 'self';
+wickedwhimsmod.com,max-age=15552000,undefined
+wamc.org,NA,NA
+p23-buy.itunes.apple.com,max-age=31536000; includeSubdomains,default-src 'self'  *.apple.com;
+p40-fmfmobile.icloud.com,max-age=31536000; includeSubDomains;,undefined
+generasimaju.co.id,max-age=63072000; includeSubDomains; preload,default-src * 'self' data: 'unsafe-inline' 'unsafe-eval'; script-src * 'self' data: 'unsafe-inline' 'unsafe-eval'; style-src * 'self' data: 'unsafe-inline';
+eurosport.ro,max-age=15768000 ; includeSubDomains,undefined
+azpbs.org,undefined,undefined
+pgadmin.org,max-age=31536000,undefined
+wpchill.com,max-age=15552000; includeSubDomains; preload,undefined
+xn----jtbhede0biaeco.tv,NA,NA
+apina.biz,undefined,undefined
+muni.il,NA,NA
+bitrix.ru,undefined,undefined
+skadnetworks.fyber.com,undefined,undefined
+palaceofchance.com,NA,NA
+aibsgc.com,undefined,default-src https: data: 'unsafe-inline' 'unsafe-eval'
+atlantiscex.com,undefined,undefined
+ac-paris.fr,max-age=31536000; includeSubdomains,undefined
+comerciantemagico.com,undefined,upgrade-insecure-requests
+uwallet.link,NA,NA
+solflare.network,NA,NA
+piccollage.com,max-age=63072000; includeSubDomains,undefined
+scheduler.zoom.us,max-age=31536000; includeSubDomains,upgrade-insecure-requests; default-src https://*.zoom.us https://zoom.us blob: 'self'; img-src https: about: blob: data: 'self'; style-src https: safari-extension: chrome-extension: 'unsafe-inline' data: 'self'; font-src https: safari-extension: chrome-extension: blob: data: 'self'; connect-src * about: blob: data: 'self'; media-src * rtmp: blob: data: 'self'; frame-src https: ms-appx-web: zoommtg: zoomus: wvjbscheme: zoomprc: data: blob: 'self'; object-src 'none'; base-uri 'none';script-src 'self' 'strict-dynamic' 'nonce-2Ss97jo-QlqN8ZeJZYp0UA' blob: https:;
+productcustomizer.com,undefined,frame-ancestors 'self'
+veronline.cc,undefined,undefined
+filmsforaction.org,undefined,undefined
+elementary.io,max-age=63072000,undefined
+bajaao.com,max-age=7889238,block-all-mixed-content; frame-ancestors *; upgrade-insecure-requests;
+lijstje.nl,max-age=31536000; includeSubDomains; preload,undefined
+intranetmall.com,NA,NA
+dadapush.it,NA,NA
+push-rtmp-spe-l1.douyincdn.com,undefined,undefined
+podorozhnyk.ua,max-age=0,undefined
+www.cliffsnotes.com,max-age=63072000; includeSubDomains,undefined
+juragan.film,NA,NA
+w3.pcesecure.com,NA,NA
+cdn.brcdn.com,undefined,undefined
+lottehotel.com,undefined,undefined
+noovo.info,max-age=31536000; includeSubDomains,default-src * data: 'unsafe-eval' 'unsafe-inline' blob:; script-src * 'unsafe-inline' 'unsafe-eval' blob:; style-src * 'unsafe-inline';
+designs.ai,undefined,undefined
+alarabixxx.com,undefined,undefined
+belpak.by,NA,NA
+roleplayer.me,undefined,undefined
+www.zonebourse.com,undefined,frame-ancestors 'self' *.marketscreener.com *.zonebourse.com *.scoopnest.com;
+dirtycode.io,undefined,undefined
+evozen.fr,max-age=63072000,undefined
+mckw.ru,max-age=31536000,undefined
+winiary.pl,max-age=300,default-src 'self' *.my-shopify.com ; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.gstatic.com recaptcha.net:* googleads.g.doubleclick.net *.googletagmanager.com c.evidon.com youtube-nocookie.com connect.facebook.net *.google-analytics.com d2oh4tlt9mrke9.cloudfront.net *.sessioncam.com *.google.com s2.go-mpulse.net js-agent.newrelic.com *.cdn.cookielaw.org *.cookie-cdn.cookiepro.com *.onetrust.com cdn.cookielaw.org d6tizftlrpuof.cloudfront.net *.usabilla.com *.gbqofs.io *.gbqofs.com d22xmn10vbouk4.cloudfront.net *.youtube.com github.com cdnjs.cloudflare.com p.teads.tv *.tintup.com objects.githubusercontent.com cdns.eu1.gigya.com cdn.hypemarks.com pxl.jivox.com *.nestle.com *.adimo.co googleoptimize.com *.gigya.com *.d6tizftlrpuof.cloudfront.net https://tintup.com cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js files.qualifio.com/kit/qualp.2.min.js scripts.qualifioapp.com/kit/plugins/iframe.js; object-src *; style-src 'self' 'unsafe-inline' *.adimo.co *.fontawesome.com fonts.googleapis.com fonts.gstatic.com cdnjs.cloudflare.com brand-ecommerce-assets.fusepump.com *.youtube.com cloud.typography.com *.google.com *.rewe-static.de *.googletagmanager.com *.cdn.cookielaw.org *.cookie-cdn.cookiepro.com *.onetrust.com *.cookielaw.org *.cloudfront.net; img-src 'self' 'unsafe-inline' *.adimo.co *.fontawesome.com fonts.googleapis.com fonts.gstatic.com https://cdnjs.cloudflare.com brand-ecommerce-assets.fusepump.com *.youtube.com cloud.typography.com *.google.com *.rewe-static.de https://www.googletagmanager.com *.cdn.cookielaw.org *.cookie-cdn.cookiepro.com *.onetrust.com https://cdn.cookielaw.org/ https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://*.google.com *.aws.nestle.recipes data: *.teads.tv *.evidon.com *.google.co.in *.facebook.com facebook.com:* *.cloudfront.net *.gigya.com data: blob: ad.doubleclick.net *.google.pl ade.googlesyndication.com  srh-media-gr.s3.eu-west-1.amazonaws.com *.s3.eu-west-1.amazonaws.com *.usabilla.com *.amazonaws.com adservice.google.pl *.google.com google.com:* emnadvmenuplannersta.blob.core.windows.net *.blob.core.windows.net; media-src * data:; frame-src 'self' lf.o-c.io cdns.eu1.gigya.com cookbook.winiary.pl *.doubleclick.net *.addthis.com  *.facebook.com *.adimo.co *.pantheonsite.io *.cookbook.winiary.pl *.youtube.com *.doubleclick.net *.google.com *.teads.tv *.hypemarks.com *.gbqofs.com *.googleapis.com *.tintup.com *.filestackcontent.com *.cloudfront.net *.winiary.pl; frame-ancestors 'self' lf.o-c.io *.doubleclick.net cookbook.winiary.pl *.winiary.pl *.cookbook.winiary.pl *.youtube.com *.doubleclick.net *.google.com *.teads.tv *.hypemarks.com *.gbqofs.com *.googleapis.com *.tintup.com *.filestackcontent.com googletagmanager.com live-72078-food-maggi-pl.pantheonsite.io; child-src 'self' lf.o-c.io *.doubleclick.net cookbook.winiary.pl *.cookbook.winiary.pl *.youtube.com *.doubleclick.net *.google.com *.teads.tv *.hypemarks.com *.gbqofs.com *.googleapis.com *.tintup.com *.filestackcontent.com https://www.googletagmanager.com blob:; font-src 'self' *.googleapis.com *.gstatic.com fonts.googleapis.com https://www.googletagmanager.com https://*.cloudfront.net; connect-src 'self' 'unsafe-eval' *.sessioncam.com d2oh4tlt9mrke9.cloudfront.net ws://*.sessioncam.com wss://*.sessioncam.com https://optoutapi.evidon.com https://c.go-mpulse.net/ https://bam.nr-data.net https://l.evidon.com https://region1.google-analytics.com https://*.google-analytics.com  https://www.facebook.com https://stats.g.doubleclick.net  https://*.gbqofs.io *.gbqofs.com *.akstat.io *.cdn.cookielaw.org *.cookie-cdn.cookiepro.com *.onetrust.com https://cdn.cookielaw.org/ *.usabilla.com https://d6tizftlrpuof.cloudfront.net https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://cm.teads.tv https://endpoint-nestle.cognigy.cloud https://cdns.eu1.gigya.com https://api.tintup.com https://*.winiary.pl https://collect.analyze.ly *.teads.tv *.jivox.com https://cognito-identity.us-east-1.amazonaws.com *.amazonaws.com wss://endpoint-nestle.cognigy.cloud *.adimo.co *.live-72078-food-maggi-pl.pantheonsite.io *.test-72078-food-maggi-pl.pantheonsite.io; report-uri /report-csp-violation
+pharmarack.com,undefined,undefined
+crmback.io,NA,NA
+okccdn.com,NA,NA
+translate.google.com.br,undefined,script-src 'report-sample' 'nonce-ojV9nMKEUTysjXFEoRwKvw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/ConsentUi/cspreport;worker-src 'self'
+script-src 'unsafe-inline' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/ConsentUi/cspreport/allowlist
+require-trusted-types-for 'script';report-uri /_/ConsentUi/cspreport
+wunc.org,NA,NA
+nicozon.net,undefined,undefined
+settings-service-r.wbx2.com,undefined,undefined
+ns22.digicertdns.com,NA,NA
+hoopchina.com,NA,NA
+ddpcshares.com,undefined,undefined
+ibx.key.com,max-age=16070400; includeSubDomains,frame-ancestors *.key.com
+agrieuro.com,undefined,undefined
+www.ralphlauren.com,max-age=31536000; includeSubDomains,frame-ancestors 'self'
+www.gomotionapp.com,max-age=31536000; includeSubDomains
+max-age=300,undefined
+www.ariat.com,max-age=300; includeSubDomains,frame-ancestors 'self'
+survey123.arcgis.com,max-age=63072000; includeSubdomains; preload,undefined
+myfiosgateway.com,NA,NA
+systeme.ru,undefined,undefined
+www.easeus.com,undefined,undefined
+adschill.com,NA,NA
+ukraine-gta.com.ua,undefined,undefined
+khmertimeskh.com,undefined,undefined
+api-.sendbird.com,NA,NA
+ladbrokes.com.au,undefined,undefined
+bloggerlocal.cfd,NA,NA
+servernap.com,NA,NA
+noris.ch,NA,NA
+ourcontrolpanel.com,NA,NA
+i-mecca.net,NA,NA
+readkomik.com,NA,NA
+www.androidauthority.com,max-age=63072000,undefined
+arabsx.xyz,undefined,undefined
+paitonet.win,max-age=31536000,undefined
+wtsparadigm.com,undefined,undefined
+zurnal.rs,max-age=31536000,upgrade-insecure-requests
+surfe.pro,undefined,undefined
+boots.ie,max-age=31536000; includeSubDomains; preload,undefined
+kinderaerzte-im-netz.de,undefined,undefined
+scaleforce.net,undefined,undefined
+ceeol.com,undefined,undefined
+bloximages.newyork1.vip.townnews.com,max-age=31536000,undefined
+ticketmaster.it,max-age=31536000,frame-ancestors 'none'; default-src https://*.safeframe.googlesyndication.com https://tpc.googlesyndication.com https://uk.tmconst.com; font-src 'self' https://uk.tmconst.com https://fonts.gstatic.com https://marketer.monetate.net/ https://cdn.smooch.io; connect-src 'self' wss://api.smooch.io cm.teads.tv t.teads.tv wss://marketplace.prod.pub-tmaws.io https://*.ticketmaster.co.uk https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.siteintercept.qualtrics.com https://*.permutive.com https://*.prmutv.co https://*.config.smooch.io https://*.saucelabs.com https://uk.tmconst.com https://checkout.ticketmaster.com https://venueview.io-virtualvenue.com https://pubads.g.doubleclick.net https://securepubads.g.doubleclick.net https://siteintercept.qualtrics.com https://stats.g.doubleclick.net https://pagead2.googlesyndication.com https://d2v54wjmlooyi.cloudfront.net https://csi.gstatic.com https://venue.tmol.co https://adservice.google.com https://www.google.com https://analytics.tiktok.com https://ib.adnxs.com https://cdn.cookielaw.org/ https://geolocation.onetrust.com/ https://privacyportal.onetrust.com/ https://api.smooch.io https://app.ticketmaster.com https://k.p-n.io/ https://fn.us.ipqscdn.com https://be.durationmedia.net https://browser-intake-datadoghq.com https://tr.snapchat.com https://tr6.snapchat.com https://mapsapi.tmol.co https://availability.ticketmaster.it https://www.ticketmaster.it https://analytics.ticketmaster.it https://identity.ticketmaster.it https://app.ticketmaster.eu https://pubapi.ticketmaster.com https://pubapi.ticketmaster.com/logger/log https://engine.monetate.net/api/engine/v1/decide/ticketmaster; script-src 'self' 'unsafe-inline' 'unsafe-eval' p.teads.tv https://*.googletagmanager.com https://*.siteintercept.qualtrics.com https://*.collect.igodigital.com https://uk.tmconst.com https://venueview.io-virtualvenue.com https://polyfill.io https://af.monetate.net https://f.monetate.net https://se.monetate.net https://sb.monetate.net https://marketer.monetate.net/ https://www.googletagservices.com https://www.google-analytics.com https://pagead2.googlesyndication.com https://siteintercept.qualtrics.com https://d2v54wjmlooyi.cloudfront.net/ssp/libs/prod/fanbuilder/v2/fanbuilder.js https://cdn.smooch.io https://api.smooch.io https://cdn.distiltag.com https://widget.ticketmaster.eu https://securepubads.g.doubleclick.net https://adservice.google.ae https://adservice.google.at https://adservice.google.be https://adservice.google.ca https://adservice.google.ch https://adservice.google.co.il https://adservice.google.co.jp https://adservice.google.co.uk https://adservice.google.co.nz https://adservice.google.com https://adservice.google.com.au https://adservice.google.com.br https://adservice.google.com.mx https://adservice.google.com.ph https://adservice.google.com.sa https://adservice.google.com.ua https://adservice.google.cz https://adservice.google.de https://adservice.google.dk https://adservice.google.es https://adservice.google.fi https://adservice.google.fr https://adservice.google.ie https://adservice.google.it https://adservice.google.nl https://adservice.google.no https://adservice.google.pl https://adservice.google.se https://analytics.twitter.com https://analytics.tiktok.com https://connect.facebook.net https://googleads.g.doubleclick.net https://media.ticketmaster.co.uk https://static.ads-twitter.com https://www.googleadservices.com https://cdn.ampproject.org https://tpc.googlesyndication.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.google.com/pagead/conversion_async.js https://api.permutive.com https://cdn.permutive.com https://cdn.cookielaw.org/ https://geolocation.onetrust.com/ https://s1.ticketm.net/tm/en-us/img/static/tmcore/web-vitals.umd.js https://s.adroll.com/ https://d.adroll.com/ https://s.pinimg.com/ https://swrap.tradedoubler.com https://www.sc.pages06.net https://cdn.p-n.io/pushly-sdk.min.js https://sc-static.net/ https://tr.snapchat.com https://tag.durationmedia.net https://static2.creative-serving.com/ https://www.datadoghq-browser-agent.com https://browser-intake-datadoghq.com https://js.adsrvr.org/up_loader.1.1.0.js https://js.hs-scripts.com https://identity.ticketmaster.it https://secure-entry.ticketmaster.com https://pubapi.ticketmaster.com/sdk/ras-sdk-v0.js https://my.ticketmaster.com https://dynamic.criteo.com https://measurement-api.criteo.com https://sslwidget.criteo.com https://widget.eu.criteo.com; style-src 'unsafe-inline' https://marketer.monetate.net/ https://fonts.googleapis.com/ https://cdn.smooch.io/; frame-src https://*.safeframe.googlesyndication.com https://*.siteintercept.qualtrics.com https://*.fls.doubleclick.net https://*.amelia.com https://marketer.monetate.net/ https://player.vimeo.com https://tpc.googlesyndication.com https://sb.monetate.net https://www.google.com/recaptcha/ https://www.youtube.com https://media.ticketmaster.co.uk https://cookies.onetrust.mgr.consensu.org/ https://bid.g.doubleclick.net https://securepubads.g.doubleclick.net https://insight.adsrvr.org/ https://identity.ticketmaster.it https://www.ticketmaster.it https://gum.criteo.com; img-src data: 'self' http://track.adform.net/ http://s0.2mdn.net/ p.teads.tv t.teads.tv https://*.googletagmanager.com https://*.google-analytics.com https://*.fls.doubleclick.net https://*.googleusercontent.com https://uk.tmconst.com https://cbt-assets.tmconst.com https://media.ticketmaster.eu https://media-staging.mfol.eu-west-1.pci.public.tmaws.eu https://s1.ticketm.net https://www.facebook.com https://nova.collect.igodigital.com https://eu.qualtrics.com https://af.monetate.net https://f.monetate.net https://marketer.monetate.net/ https://tpc.googlesyndication.com https://www.google.ae https://www.google.at https://www.google.be https://www.google.ca https://www.google.ch https://www.google.cl https://www.google.co.in https://www.google.co.jp https://www.google.co.uk https://www.google.co.nz https://www.google.co.za https://www.google.com https://www.google.com.au https://www.google.com.br https://www.google.com.co https://www.google.com.ec https://www.google.com.eg https://www.google.com.gt https://www.google.com.mx https://www.google.com.ph https://www.google.com.sa https://www.google.com.ua https://www.google.cz https://www.google.de https://www.google.dk https://www.google.es https://www.google.fi https://www.google.fr https://www.google.ie https://www.google.it https://www.google.nl https://www.google.no https://www.google.pl https://www.google.rs https://www.google.ru https://www.google.se https://ad.doubleclick.net https://cm.g.doubleclick.net https://securepubads.g.doubleclick.net https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://prismic-images.tmol.io https://i.ytimg.com/ https://i.vimeocdn.com/ https://media.ticketmaster.co.uk https://s3.eu-west-2.amazonaws.com/onsale-img/tmimages/TM_GenCatImgs_Generic.jpg https://s3.eu-west-2.amazonaws.com/onsale-img/tmimages/TM_GenCatImgs_Music.jpg https://s3.eu-west-1.amazonaws.com/ https://cx.atdmt.com https://venueview.io-virtualvenue.com https://secure.adnxs.com https://t.co https://analytics.twitter.com https://ads.avocet.io https://ads.avct.cloud https://googlesync.permutive.com/ https://cdn.cookielaw.org/ https://pixel.quantserve.com https://www.gstatic.com/ https://image.mailing.ticketmaster.com/ https://cdn.smooch.io https://media.smooch.io https://ct.pinterest.com/ https://sp.analytics.yahoo.com/ https://www.pages06.net/ https://venue.tmol.co https://media.pushlycdn.com https://ib.adnxs.com/pixie https://identity.ticketmaster.it https://mapsapi.tmol.co; media-src https://uk.tmconst.com/; object-src 'none'; base-uri 'self'; worker-src 'self' blob: https://www.google.com/recaptcha/; child-src blob: https://*.siteintercept.qualtrics.com; report-uri https://analytics.ticketmaster.it/api/reports
+audiobookbay.lu,undefined,undefined
+ryukyushimpo.jp,max-age=31536000; includeSubDomains,object-src 'none'; base-uri 'self'
+animalzooporn.me,undefined,undefined
+spbmts.ru,NA,NA
+www.wfmz.com,max-age=31536000,upgrade-insecure-requests
+marchespublics.gov.ma,NA,NA
+fevtutor.com,NA,NA
+lloydsonline.com.au,max-age=31536000; includeSubDomains; preload,undefined
+mostbet-giris-az.xyz,undefined,undefined
+rentomojo.com,max-age=15552000; preload,undefined
+www.3dtuning.com,undefined,undefined
+hellomoving.com,NA,NA
+nykaaman.com,NA,NA
+signaling.vn.teslamotors.com,max-age=15724800; includeSubDomains
+max-age=31536000; includeSubDomains,default-src 'none'
+signiant.com,NA,NA
+free.hr,NA,NA
+p117-contacts.icloud.com,max-age=31536000; includeSubDomains;,undefined
+www.mlbshop.com,max-age=2628000 ; includeSubDomains ; preload,undefined
+admo.tv,max-age=63072000; includeSubDomains,undefined
+pixelbin.io,includeSubDomains; preload,undefined
+zagent19.h-cdn.com,undefined,undefined
+activity.wisepops.com,undefined,undefined
+vumoo.to,NA,NA
+kajabimail.net,NA,NA
+softlab-nsk.ru,undefined,undefined
+beeg.party,undefined,undefined
+yellowhat.jp,NA,NA
+datatilsynet.no,max-age=31536000; includeSubDomains; preload,default-src 'self' https://data.brreg.no https://www.personvernbloggen.no https://dl.episerver.net https://www.youtube.com https://www.dreambroker.com https://dreambroker.com data:; script-src 'unsafe-inline' 'unsafe-eval' https:; style-src 'unsafe-inline' https:; img-src http://chart.googleapis.com https: data:; font-src 'self' data:;
+bobboro.com,undefined,undefined
+1xslots-online.com,undefined,undefined
+factory.jcrew.com,max-age=604800,undefined
+sandiegozoowildlifealliance.org,max-age=300,undefined
+ecocart.tools,NA,NA
+imagequix.com,max-age=31536000; includeSubDomains; preload,undefined
+shopserve.jp,NA,NA
+grani.ru,NA,NA
+sputnikmusic.com,undefined,undefined
+yamareco.com,NA,NA
+mar.mil.br,undefined,undefined
+gazeteler.com,NA,NA
+tidycal.com,undefined,undefined
+zaptrade.ru,undefined,undefined
+toptoon.net,undefined,undefined
+sodimac.com.mx,max-age=15552000; includeSubDomains,undefined
+truemeds.in,undefined,frame-ancestors 'none'
+snooker.org,undefined,undefined
+timnegocia.com.br,max-age=63072000; includeSubDomains; preload,default-src https: data: blob: 'self' mailto: 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.rybena.com.br; frame-ancestors 'self' https://www.gstatic.com/recaptcha https://www.google-analytics.com  https://www.google.com/recaptcha/; connect-src https: wss: blob:; img-src 'self' blob: data: https://cdn.rybena.com.br
+rossiya-airlines.com,max-age=31536000,undefined
+codicefiscaleonline.com,undefined,undefined
+login.taobao.com,max-age=31536000,undefined
+p131-fmfmobile.icloud.com,max-age=31536000; includeSubDomains;,undefined
+p164-fmfmobile.icloud.com,max-age=31536000; includeSubDomains;,undefined
+p159-fmfmobile.icloud.com,max-age=31536000; includeSubDomains;,undefined
+nimhans.ac.in,NA,NA
+alm.com,undefined,undefined
+ns-482.awsdns-60.com,NA,NA
+concept3d.com,max-age=31536000; includeSubdomains; preload,undefined
+weavatools.com,undefined,undefined
+popaganda.gr,undefined,undefined
+kaufland.ro,max-age=31536000,frame-ancestors media.kaufland.de media.kaufland.com wissen-kaufland.kcenter.usu.com kaufland.staffbase.com 'self'
+mecatechnic.com,max-age=31536000;,undefined
+iezxmddndn.com,undefined,undefined
+k3s.io,max-age=31556952,undefined
+baby.ru,NA,NA
+sexreal.link,undefined,undefined
+eldiariodecarlospaz.com.ar,NA,NA
+us04www3.zoom.us,max-age=31536000; includeSubDomains,upgrade-insecure-requests; default-src https://*.zoom.us https://zoom.us blob: 'self'; img-src https: about: blob: data: 'self'; style-src https: safari-extension: chrome-extension: 'unsafe-inline' data: 'self'; font-src https: safari-extension: chrome-extension: blob: data: 'self'; connect-src * about: blob: data: 'self'; media-src * rtmp: blob: data: 'self'; frame-src https: ms-appx-web: zoommtg: zoomus: wvjbscheme: zoomprc: data: blob: 'self'; object-src 'none'; base-uri 'none';script-src 'self' 'strict-dynamic' 'nonce-2Ss97jo-QlqN8ZeJZYp0UA' blob: https:;
+japanpension.co.jp,NA,NA
+123movies-to.org,undefined,undefined
+login.sofi.com,max-age=31536000; includeSubDomains,undefined
+premiumdns.zone,NA,NA
+libra16-normal-useast8.tiktokv.us,max-age=31536000 ; includeSubDomains,undefined
+buyerbridge.io,undefined,undefined
+www.monster.com,max-age=31536000; includeSubDomains; preload,undefined
+bradford.ac.uk,max-age=31536000; includeSubDomains,undefined
+domgrom.com,undefined,undefined
+umassmemorial.org,max-age=300,undefined
+taraabar.net,max-age=2592000; preload,upgrade-insecure-requests
+francescas.com,max-age=300,undefined
+nof.org,undefined,undefined
+adultfolio.com,undefined,undefined
+editor-api-sg.capcut.com,undefined,undefined
+usd.ac.id,undefined,undefined
+info.pinyin.sogou.com,undefined,undefined
+media.hingenexus.com,undefined,undefined
+www.interactivebrokers.co.uk,max-age=600 ; includeSubDomains,frame-ancestors 'self' *.interactivebrokers.com *.interactivebrokers.ie *.interactivebrokers.hu *.interactivebrokers.ca *.interactivebrokers.com.hk *.interactivebrokers.ch *.interactivebrokers.co.uk *.interactivebrokers.com.au *.interactivebrokers.co.jp *.interactivebrokers.co.in *.ibkram.com IBKR.docebosaas.com *.interactiveadvisors.com *.ibkr.com *.ibkr.com.cn *.clientam.com *.youtube.com *.clientam.ch *.clientam.com.hk *.go-mpulse.net *.akstat.io impact.interactivebrokers.com widgets.tipranks.com site.recognia.com worldtrader.hsbc.ae *.ibkrcampus.com ibkrcampus.com www.ibkrguides.com *.greenwichcompliance.com;
+builderallwp.com,undefined,undefined
+nicheacademy.com,max-age=31536000,upgrade-insecure-requests
+myjobmag.co.ke,undefined,undefined
+xn--3dsq7teoyo9d.com,max-age=31536000; includeSubDomains; preload,undefined
+rtb.fr3.eu.criteo.com,max-age=31536000; preload;,undefined
+stiridecluj.ro,undefined,undefined
+getcircuit.com,max-age=63072000,undefined
+freshersnow.com,undefined,undefined
+img-resize-cdn-prod.samsungnyc.com.cdn.cloudflare.net,NA,NA
+listafirme.ro,undefined,undefined
+staq-cdn.com,undefined,undefined
+sportnews.bz,undefined,undefined
+keysystems.ru,undefined,default-src https: data: blob: 'unsafe-inline' 'unsafe-eval'
+gamerlaunch.com,undefined,undefined
+iranconcert.com,max-age=2592000
+max-age=2592000,undefined
+widder.at,max-age=63072000,undefined
+fs1.app,max-age=15768000,undefined
+summitdaily.com,undefined,undefined
+e11408.d.akamaiedge.net,NA,NA
+samsungnyc.com.cdn.cloudflare.net,NA,NA
+api-us1.com,NA,NA
+versia.ru,max-age=63072000; includeSubdomains; preload,undefined
+www.deseret.com,undefined,upgrade-insecure-requests
+ce-uw2.lijit.com,undefined,undefined
+sdqdptt.net.cn,NA,NA
+tellerreport.com,undefined,undefined
+javdoe.to,undefined,undefined
+lensrentals.com,max-age=31536000; includeSubDomains,undefined
+www.banxico.org.mx,max-age=480; preload,undefined
+whatdotheyknow.com,max-age=631139040; includeSubdomains,undefined
+kupikod.com,max-age=31536000; includeSubDomains; preload,undefined
+fastly-tls12-bam-cell.nr-data.net,undefined,undefined
+arede.info,undefined,undefined
+syncsearch.jp,max-age=15768000,undefined
+dominos.nl,max-age=15768000 ; includeSubDomains,undefined
+costco.com.au,max-age=31536000 ; includeSubDomains ; preload,frame-ancestors 'self' https://*.costco.co.uk https://*.costco.com.au https://*.costco.com.mx https://*.costco.co.jp https://*.costco.fr https://*.costco.es https://*.costco.is https://*.costco.co.kr https://*.costco.com.tw
+spellingtraining.com,undefined,undefined
+casinobarcelona.es,undefined,undefined
+solidhosting.pro,undefined,undefined
+unime.it,undefined,undefined
+fansale.it,NA,NA
+cdntv.online,undefined,undefined
+dapurhosting.net,NA,NA
+np.stun.playstation.net,NA,NA
+srhc.net,NA,NA
+hayat.ba,undefined,undefined
+p22-buy.itunes.apple.com,max-age=31536000; includeSubdomains,default-src 'self'  *.apple.com;
+ford.fr,undefined,undefined
+opendigitaleducation.com,undefined,undefined
+sxl.cn,NA,NA
+apktoy.com,undefined,undefined
+lwxiaoshuo.org,max-age=31536000,undefined
+jiangnan.edu.cn,NA,NA
+goduke.com,NA,NA
+www.pennmedicine.org,max-age=31536000,undefined
+www.bt.com,NA,NA
+ats-eks.us-west-2.dcs-online-targeting-prd.aws.oath.cloud,NA,NA
+diginomica.com,max-age=31536000,report-uri /report-csp-violation
+supleks.jp,undefined,undefined
+orgasmatrix.com,undefined,undefined
+shueisha.online,max-age=31536000,undefined
+data-asset-directory-public-service-prod.ol.epicgames.com,undefined,undefined
+student.teachtci.com,max-age=31536000; includeSubDomains;,script-src 'self' https: 'unsafe-inline' 'unsafe-eval' https://*.google-analytics.com http://*.google-analytics.com https://*.googletagmanager.com http://*.googletagmanager.com http://w.usabilla.com; img-src * android-webview-video-poster: data: blob: 'unsafe-inline'; object-src 'none'; default-src * about: moz-extension: safari-extension: safari-web-extension: data: blob: 'unsafe-inline'; report-uri /api/v2/csp_reports
+us-west-2.dcs-online-targeting-prd.aws.oath.cloud,NA,NA
+redcondor.net,NA,NA
+medflyfish.com,NA,NA
+germanywestcentral-prod.cosmic.office.net,NA,NA
+megafamous.com,undefined,undefined
+animedrive.hu,undefined,undefined
+p139-fmfmobile.icloud.com,max-age=31536000; includeSubDomains;,undefined
+www.audible.co.uk,max-age=47474747; includeSubDomains; preload,undefined
+guap.ru,max-age=2592000,undefined
+economie.gouv.fr,max-age=15552000; includeSubDomains; preload,default-src https: 'unsafe-eval' 'unsafe-inline'; object-src https: ; child-src https: platform.twitter.com; img-src https: data:; font-src 'self' data: https:; frame-ancestors 'self' bloctel.fr *.bloctel.fr bloctel.gouv.fr *.bloctel.gouv.fr http://bloctel.fr http://*.bloctel.fr http://bloctel.gouv.fr http://*.bloctel.gouv.fr;
+sweepstakesfanatics.com,undefined,undefined
+realtek.com.tw,NA,NA
+directoalpaladar.com.mx,max-age=31536000; includeSubDomains; preload,undefined
+ic3-edf-trouter.germanywestcentral-prod.cosmic.office.net,NA,NA
+kuruc.info,max-age=2592000; includeSubDomains; preload,undefined
+upjs.sk,undefined,undefined
+www.livejournal.com,NA,NA
+label-emmaus.co,undefined,undefined
+performancemanager10.successfactors.com,max-age=31536000; includeSubDomains,undefined
+locservice.fr,undefined,undefined
+omp.ru,undefined,undefined
+diywiki.org,undefined,undefined
+true.academy,NA,NA
+media.istockphoto.com,undefined,undefined
+connectips.com,max-age=15768000;,undefined
+mamot.fr,max-age=63072000; includeSubDomains,base-uri 'none'; default-src 'none'; frame-ancestors 'none'; font-src 'self' https://mamot.fr; img-src 'self' https: data: blob: https://mamot.fr; style-src 'self' https://mamot.fr 'nonce-UbhFhc13Do8T5KAEzhgrCw=='; media-src 'self' https: data: https://mamot.fr; frame-src 'self' https:; manifest-src 'self' https://mamot.fr; form-action 'self'; child-src 'self' blob: https://mamot.fr; worker-src 'self' blob: https://mamot.fr; connect-src 'self' data: blob: https://mamot.fr https://static.mamot.fr wss://mamot.fr; script-src 'self' https://mamot.fr 'wasm-unsafe-eval'
+javsubid.net,max-age=31536000,undefined
+aniwave.vc,undefined,undefined
+musicasparamissa.com.br,NA,NA
+rlicorp.com,NA,NA
+agl.com.au,undefined,undefined
+www.riteaid.com,NA,NA
+gain.tv,undefined,undefined
+comparic.pl,max-age=63072000; includeSubDomains; preload,undefined
+honda.mx,NA,NA
+forum.nexon.com,undefined,undefined
+kuro5hin.org,NA,NA
+elchubut.com.ar,NA,NA
+juul.com,max-age=63072000; includeSubDomains; preload,undefined
+qianxincdn.com,NA,NA
+www.hibbett.com,max-age=2; includeSubDomains; preload,undefined
+designdarum.co.kr,NA,NA
+janpara.co.jp,NA,NA
+radcom.hosting,undefined,undefined
+yupcard.com,undefined,undefined
+cointracking.info,max-age=31536000,frame-ancestors 'self'
+lesanciennes.com,undefined,undefined
+shaws.com,undefined,undefined
+www.kenhub.com,max-age=31536000; includeSubDomains; preload,undefined
+cambridgema.gov,NA,NA
+eaglecable.net,NA,NA
+unn.com.ua,undefined,undefined
+radicati.com,undefined,undefined
+www.hellomolly.com,NA,NA
+roi.ru,max-age=31536000; includeSubdomains; preload,default-src 'none'; connect-src 'self' https://mc.yandex.ru/; font-src https://w.uptolike.com https://fonts.gstatic.com; frame-src 'self' https://roi.ru https://api-maps.yandex.ru; img-src 'self' data: https://api-maps.yandex.ru https://css.roi.ru https://www.roi.ru https://mc.yandex.ru https://static.roi.ru https://*.maps.yandex.net; script-src 'unsafe-inline' 'unsafe-eval' https://api-maps.yandex.ru/ https://*.maps.yandex.net https://www.roi.ru/ https://js.roi.ru/ https://mc.yandex.ru/metrika/watch.js https://speller.yandex.net https://w.uptolike.com; style-src 'self' 'unsafe-inline' https://css.roi.ru https://fonts.googleapis.com
+newchic.com,undefined,undefined
+www.conflictnations.com,undefined,undefined
+canarymedia.com,undefined,undefined
+adsimple.at,max-age=31536000;,undefined
+fastcocreate.com,NA,NA
+thansen.dk,undefined,frame-ancestors 'self'
+twi-videos.net,NA,NA
+bfp.us-east.ipv4.dotomi.weighted.com.akadns.net,NA,NA
+www.liberty.edu,undefined,undefined
+etopfun.com,undefined,undefined
+hostvirtual.com,undefined,upgrade-insecure-requests
+morgandetoi.fr,NA,NA
+cincinnatistate.edu,max-age=300,undefined
+www.postgresql.org,max-age=31536000,default-src 'self' ; img-src * data: ; script-src 'unsafe-eval' 'self' www.google-analytics.com ssl.google-analytics.com www.googletagmanager.com tagmanager.google.com data: ; connect-src 'self' www.google-analytics.com ssl.google-analytics.com ; media-src 'self' ; style-src 'self' fonts.googleapis.com tagmanager.google.com ; font-src 'self' fonts.gstatic.com data: ; frame-ancestors 'none' ; report-uri https://csp-report.postgresql.org/
+adfa.edu.au,NA,NA
+us-east.ipv4.dotomi.weighted.com.akadns.net,NA,NA
+killtarget.biz,max-age=31536000;,undefined
+dbsalliance.org,undefined,undefined
+eu-nw-courier-4.push-apple.com.akadns.net,NA,NA
+www.bootbarn.com,max-age=15552000; includeSubDomains; preload,undefined
+p29-fmfmobile.icloud.com,max-age=31536000; includeSubDomains;,undefined
+uniza.sk,undefined,undefined
+domains.gannett.map.fastly.net,NA,NA
+www.imf.org,max-age=31536000,upgrade-insecure-requests
+cars.booking.com,max-age=2592000; includeSubDomains,undefined
+rtuexam.net,max-age=31536000; includeSubDomains; preload,undefined
+e9428.a.akamaiedge.net,NA,NA
+nssi.bg,max-age=15768000,default-src 'self' 'unsafe-inline' 'unsafe-eval' https: noi.bg www.noi.bg nssi.bg www.nssi.bg; frame-ancestors 'none'
+emedicine.medscape.com,undefined,upgrade-insecure-requests
+default-src * data: blob: mailto: tel: 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests
+steam.tv,undefined,default-src blob: data: https: 'unsafe-inline' 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://community.cloudflare.steamstatic.com/ https://cdn.cloudflare.steamstatic.com/steamcommunity/public/assets/ https://api.steampowered.com/ https://recaptcha.net https://www.google.com/recaptcha/ https://www.gstatic.cn/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.youtube.com/ https://s.ytimg.com  https://www.youtube.com/iframe_api https://s.ytimg.com/yts/jsbin/ https://www.youtube.com/s/player/ wasm-eval; object-src 'none'; connect-src 'self' https://community.cloudflare.steamstatic.com/ https://store.steampowered.com/ https://checkout.steampowered.com/ wss://community.steam-api.com/websocket/ https://api.steampowered.com/ https://login.steampowered.com/ https://help.steampowered.com/ https://steam.tv/ https://steamcommunity.com/ https://*.valvesoftware.com https://*.steambeta.net https://*.discovery.beta.steamserver.net https://*.steamcontent.com https://steambroadcast.akamaized.net https://steambroadcast-test.akamaized.net https://broadcast.st.dl.eccdnx.com https://lv.queniujq.cn https://steambroadcastchat.akamaized.net http://127.0.0.1:27060 ws://127.0.0.1:27060 wss://*.cm.steampowered.com:* https://*.cm.steampowered.com:* wss://*.steamserver.net:* https://*.steamserver.net:* ws://localhost:27062 https://* ; frame-src 'self' steam: https://store.steampowered.com/ https://help.steampowered.com/ https://login.steampowered.com/ https://www.youtube.com https://www.google.com https://sketchfab.com https://player.vimeo.com https://medal.tv https://www.google.com/recaptcha/ https://recaptcha.net/recaptcha/ https://w.soundcloud.com https://codepen.io https://streamable.com/ https://player.twitch.tv/ https://clips.twitch.tv/ https://sketchfab.com/ https://open.spotify.com/; frame-ancestors 'self' https://steamloopback.host ;
+kmgosi.co.kr,NA,NA
+fragrantica.com.br,undefined,undefined
+investisdigital.com,max-age=15768000 ; includeSubDomains,default-src 'self' data: 'unsafe-eval' 'unsafe-inline' blob: *.brightcove.com *.cloudfront.net *.doubleclick.net *.google.com *.facebook.com forms.hsforms.com app.hubspot.com brightcove.hs.llnwd.net matomo-prod.connectid.cloud house-fastly-signed-eu-west-1-prod.brightcovecdn.com https://forms.hubspot.com www.connectidfeed.com otp.tools.investis.com irs.tools.investis.com https://www.youtube.com/ https://youtu.be/ https://www.youtube.com/iframe_api *.investisapi.com investisapi.com *.posthog.com wec-assets.terminus.services player.vimeo.com players.brightcove.net; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.convertexperiments.com *.hsforms.net *.jsdelivr.net *.googletagmanager.com *.connectid.cloud *.investis.com *.jquery.com *.cloudflare.com *.googleusercontent.com *.cloudfront.net *.hsforms.com *.facebook.net *.licdn.com *.google-analytics.com *.googleadservices.com *.investisdigital.com *.doubleclick.net *.lfeeder.com *.investis.com blob: data: *.hs-scripts.com *.google.com *.gstatic.com *.googleapis.com *.hsleadflows.net *.hsadspixel.net *.usemessages.com *.hs-analytics.net *.hs-banner.com brightcove.hs.llnwd.net matomo-prod.connectid.cloud unpkg.com tools.luckyorange.com *.investisapi.com investisapi.com *.posthog.com wec-assets.terminus.services; style-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com *.cloudflare.com *.googleusercontent.com *.investis.com *.cloudfront.net ; img-src 'self' data: 'unsafe-inline' 'unsafe-eval' *.investisdigital.com *.connectid.cloud *.investis.com *.facebook.com *.linkedin.com *.google.com *.google.co.in *.cloudfront.net *.brightcove.com *.lfeeder.com *.adsymptotic.com *.google-analytics.com *.hsforms.com *.gstatic.com *.googleapis.com *.googletagmanager.com *.hubspot.com  brightcove.hs.llnwd.net cf-images.eu-west-1.prod.boltdns.net *.wpengine.com https://exceptions.hs-embed-reporting.com wec-assets.terminus.services match.adsrvr.org; font-src 'self' *.cloudfront.net *.googleusercontent.com *.gstatic.com; connect-src 'self' *.amazonaws.com *.brightcove.com *.luckyorange.net *.linkedin.com *.google-analytics.com *.investis.com *.doubleclick.net *.googleapis.com wss://*.visitors.live wss://visitors.live *.investisdigital.com *.hubspot.com *.hubapi.com forms.hsforms.com www.facebook.com api.luckyorange.com matomo-prod.connectid.cloud settings.luckyorange.com wss://mqtt.luckyorange.com/mqtt public-auth-dot-lucky-orange.appspot-preview.com api-preview.luckyorange.com wss://realtime.luckyorange.com app.posthog.com cdn.linkedin.oribi.io analytics.google.com *.visitors.live *.live; report-uri /report-csp-violation
+lupin.com,max-age=31536000; includeSubDomains; preload,default-src 'self'; script-src data: 'self' 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval' https://lupin.com https://lupin.com/US https://www.facebook.com https://www.youtube.com/ https://tags.srv.stackadapt.com https://www.google.co.in https://www.googletagmanager.com https://cdn.syndication.twimg.com https://*.gstatic.com https://www.google.com https://*.twitter.com https://*.lupin.com https://ssl.google-analytics.com https://moment.github.io https://cdn.jsdelivr.net https://code.jquery.com https://connect.facebook.net https://www.google-analytics.com https://cdnjs.cloudflare.com https://ajax.cloudflare.com https://cdnjs.cloudflare.com https://www.googleadservices.com https://snap.licdn.com https://googleads.g.doubleclick.net https://ajax.googleapis.com https://stats.wp.com; img-src 'self' data: https://wp-rocket.me https://www.facebook.com https://i1.wp.com https://www.google.co.in https://www.google.com https://*.twimg.com https://*.lupin.com https://i.ytimg.com https://ssl.google-analytics.com https://www.google-analytics.com https://cdn.page-source.com https://px.ads.linkedin.com https://www.googleadservices.com https://snap.licdn.com https://px4.ads.linkedin.com https://www.linkedin.com https://p.adsymptotic.com https://secure.gravatar.com https://pixel.wp.com https://lupin.com/US/ https://woocommerce.com http://lupinnewwebsiteuat.azurewebsites.net; style-src 'self' 'unsafe-inline' https://platform.twitter.com https://*.twimg.com https://*.lupin.com https://use.fontawesome.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://fonts.googleapis.com https://tags.srv.stackadapt.com; font-src 'self' data: https://lupin.com https://fonts.googleapis.com https://fonts.gstatic.com https://www.lupin.com/ https://lupinnewwebsite.azurewebsites.net; frame-src 'self' https://td.doubleclick.net https://www.facebook.com https://www.google.co.in https://*.twitter.com https://www.youtube.com https://www.google-analytics.com https://www.google.com https://content.dionglobal.in https://youtube.com; connect-src 'self' data: https://px.ads.linkedin.com/wa/ https://analytics.google.com https://stats.g.doubleclick.net https://*.lupin.com https://www.google-analytics.com https://lupin.com/US/ https://yoast.com https://tags.srv.stackadapt.com https://lupinnewwebsiteuat.azurewebsites.net https://cdn.linkedin.oribi.io; object-src 'none';
+hellowork.careers,undefined,undefined
+readnaturally.com,undefined,undefined
+maxpornogratis.com,max-age=31536000;,undefined
+etpgpb.ru,NA,NA
+goodcleanhumor.com,max-age=63072000,undefined
+www.servsafe.com,max-age=63072000; includeSubDomains; preload,default-src 'none';        media-src *.servsafe.com;     script-src 'self' *.servsafe.com 'unsafe-eval' 'unsafe-inline' munchkin.marketo.net apps.usw2.pure.cloud *.clarity.ms connect.facebook.net www.googleadservices.com ajax.googleapis.com *.google-analytics.com www.googletagmanager.com www.livehelpnow.net lptag.liveperson.net *.tableau.com *.tableausoftware.com *.doubleclick.net *.bing.com a.clarity.ms player.vimeo.com www.youtube.com  *.restaurant.org *.cloudfront.net apps.mypurecloud.com apps.usw2.pure.cloud cobrowse.usw2.pure.cloud bat.bing.com;     style-src 'self' 'unsafe-inline' *.googleapis.com *.restaurant.org apps.mypurecloud.com *.cloudfront.net cdn.jsdelivr.net;     font-src 'self' fonts.gstatic.com *.servsafe.com apps.mypurecloud.com *.cloudfront.net cdn.jsdelivr.net;      img-src 'self' data: *.servsafe.com *.google-analytics.com www.livehelpnow.net apps.mypurecloud.com *.bing.com *.doubleclick.net *.google.com *.facebook.com;     connect-src 'self' *.servsafe.com *.servsafe.com *.google-analytics.com *.mktoresp.com analytics.google.com *.doubleclick.net rum-ingest.us1.signalfx.com api.usw2.pure.cloud wss://streaming.usw2.pure.cloud wss://cobrowse.usw2.pure.cloud api-cdn.usw2.pure.cloud ws://webmessaging.usw2.pure.cloud *.googlesyndication.com;     frame-ancestors 'self' *.discoverlink.com;     child-src 'self' *.servsafe.com *.restaurant.org;        frame-src 'self' *.servsafe.com *.doubleclick.net *.googletagmanager.com www.facebook.com player.vimeo.com  www.youtube.com *.restaurant.org *.cloudfront.net apps.usw2.pure.cloud *.bing.com
+colins.com.tr,max-age=16000000; includeSubDomains; preload;,frame-ancestors 'self';
+1plus1tv.zone,undefined,undefined
+www.myfonts.com,max-age=7889238,block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+socks.live.bigo.sg,NA,NA
+nettruyen5.com,undefined,undefined
+scoredit.com,undefined,undefined
+girlfriendgalleries.net,undefined,undefined
+sdk.amazonaws.com,max-age=31536000,upgrade-insecure-requests; script-src 'self' 'unsafe-inline' *.awsstatic.com *.cdn.uis.awsstatic.com *.cdn.console.awsstatic.com docs.aws.amazon.com; object-src 'none'; frame-ancestors 'self'; base-uri 'none'
+green-way.com.ua,undefined,undefined
+hertfordshire.gov.uk,undefined,frame-ancestors 'self' https://hertfordshire.gov.uk https://*.hertfordshire.gov.uk https://su-uk-d365-bps-hcccsc-p.crm11.dynamics.com https://su-secu-azu-d365-bps-hcccsc-d.crm11.dynamics.com https://su-uk-d365-bps-hcccsc-t.crm11.dynamics.com https://su-uk-d365-bps-hcccsc-u.crm11.dynamics.com https://su-uk-d365-bps-hcccsc-l.crm11.dynamics.com https://su-uk-d365-bps-hcccsc-p.crm11.dynamics.com;
+www.123rf.com,undefined,undefined
+muropaketti.com,undefined,undefined
+www.harley-davidson.com,undefined,undefined
+replit.dev,max-age=31536000; preload,undefined
+www.aritzia.com,max-age=10800000,undefined
+console.firebase.google.com,max-age=31536000; includeSubDomains,script-src 'report-sample' 'nonce-9CLtjK8BArDLmDwui5wJ7w' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+script-src 'unsafe-inline' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /v3/signin/_/AccountsSignInUi/cspreport/allowlist
+require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+vod62c350g.airspace-a.cbsivideo.com,undefined,undefined
+lums.edu.pk,NA,NA
+cbe.ab.ca,NA,NA
+p45-imap.mail.me.com,NA,NA
+titshub.com,NA,NA
+globnix.net,NA,NA
+parameter1.com,undefined,undefined
+cariuma.com,max-age=7889238,block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+pequerecetas.com,undefined,undefined
+pornky.com,undefined,undefined
+mobexpert.ro,NA,NA
+www.boohoo.com,NA,NA
+infzm.com,undefined,undefined
+livesession.io,max-age=31536000,undefined
+csgnetwork.com,NA,NA
+negocioleonisa.com,NA,NA
+wag-static.com,NA,NA
+justindianxporn.com,undefined,undefined
+threatspike.com,max-age=31536000; includeSubDomains,frame-ancestors *.threatspike.com
+idbroker-a.wbx2.com,undefined,undefined
+akinox.dev,NA,NA
+ifs.com,NA,NA
+winstakes.com,undefined,undefined
+conservativebrief.com,undefined,undefined
+ncloudstorage.com,NA,NA
+schoolofwordplay.com,NA,NA
+afnet.net,NA,NA
+servpac.com,undefined,undefined
+www.grab.com,undefined,frame-ancestors 'self' https://splytech.io https://*.splytech.io
+gottabemobile.com,undefined,undefined
+wisokykulas.bid,NA,NA
+oneabbott.com,NA,NA
+ims-v4.paramount.tech,undefined,undefined
+qlife.jp,NA,NA
+pccu.edu.tw,NA,NA
+i-motion.de,max-age=31536000,undefined
+newmuseum.org,NA,NA
+seikyoonline.com,NA,NA
+pichak.net,undefined,undefined
+gigenet.com,max-age=15552000,undefined
+caster.fm,undefined,undefined
+mmy.ne.jp,NA,NA
+vacasa.io,NA,NA
+kalahariresorts.com,max-age=63072000; includeSubDomains; preload,default-src https: 'unsafe-inline' 'unsafe-eval';frame-ancestors 'self';upgrade-insecure-requests;
+flutterwave.com,max-age=31536000; includeSubDomains; preload,default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https:; object-src 'none'; frame-ancestors 'self' https://app.flutterwave.com https://dashboard.flutterwave.com https://f4b-dashboard-v3-preprod.tls-flutterwave.com; script-src-elem 'unsafe-inline' https:; frame-src 'self' https:;
+janamtv.com,NA,NA
+ibc.org,NA,NA
+blood.ca,NA,NA
+accdn.livepersonk.akadns.net,NA,NA
+lacoccinelle.net,max-age=31536000; includeSubDomains; preload,undefined
+nicusa-gl.com,NA,NA
+livefpl.net,undefined,undefined
+hao.360.com,NA,NA
+vdi.de,max-age=63072000; includeSubDomains; preload,undefined
+widencollective.com,max-age=63072000; includeSubDomains,upgrade-insecure-requests
+frame-ancestors 'self'
+www.news-medical.net,max-age=15552000,undefined
+bank.discover.com,NA,NA
+geo.accdn.livepersonk.akadns.net,NA,NA
+naurok.ua,undefined,undefined
+unimo.it,NA,NA
+sibokep.guru,undefined,undefined
+hy7044olb.puzztake.com,NA,NA
+www.justgiving.com,max-age=63072000; includeSubDomains; preload,undefined
+effex.ru,max-age=63072000; includeSubDomains; preload,undefined
+jobadder.com,max-age=31536000; includeSubDomains,undefined
+apiproxy-logging-s1-fda6d13c2f6a9750.elb.us-west-2.amazonaws.com,NA,NA
+people.googleapis.com,undefined,undefined
+europe.x.cp.wd.microsoft.com,NA,NA
+nagor.cn,NA,NA
+revechat.com,NA,NA
+lotteria.jp,undefined,undefined
+hyperxgaming.com,NA,NA
+satchelone.com,max-age=16000000; includeSubDomains; preload;,undefined
+bokt.nl,undefined,undefined
+www.rci.com,max-age=31536000 ; includeSubDomains,undefined
+www.rtings.com,undefined,undefined
+adam4adamsfw.com,NA,NA
+trk.sensic.net,NA,NA
+webtretho.com,NA,NA
+fbs2-t-msedge.net,NA,NA
+www.wendys.com,undefined,undefined
+nextron-systems.com,undefined,undefined
+exohosting.sk,undefined,undefined
