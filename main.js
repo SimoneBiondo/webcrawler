@@ -1,7 +1,9 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs'
 
-class ExecutionManager {
+// Logger
+
+class Logger {
 
     #ANSI_RESET = '\x1b[0m';
     #ANSI_COLOR_RED = '\x1b[31m';
@@ -37,119 +39,121 @@ class ExecutionManager {
     }
 }
 
+async function extractDomainsFromCsv(inputPathName) {
 
-const CHUNK_SIZE = 20;
-const path_in = process.argv[2];
-const path_out = process.argv[3];
-const browser = await puppeteer.launch({headless: false});
-
-function streamAsPromise(stream) {
-    return new Promise((resolve, reject) => {
-        let data = "";        
-        stream.on("data", chunk => data += chunk);
-        stream.on("end", () => resolve(data));
-        stream.on("error", error => reject(error));
-    });
-}
-
-const text = await streamAsPromise(fs.createReadStream(path_in));
-const domains = text.split('\n').map((text) => (text.split(',')[1]).replace("\r", ""));
-
-csvmaker("header", [createDict("NA", "NA", "NA")], path_out);
-async function fetchResults(domains) {
-
-    const manager = new ExecutionManager();
-    const chunks = splitInChunks(domains, CHUNK_SIZE);
-    const resolved = []
-    const finalStep = (value) => {
-        manager.update(value);
-        manager.logState(domains.length);
-        return value;
+    const streamAsPromise = (stream) => {
+        return new Promise((resolve, reject) => {
+            let data = "";        
+            stream.on("data", chunk => data += chunk);
+            stream.on("end", () => resolve(data));
+            stream.on("error", error => reject(error));
+        });
     }
 
-    for (const chunk of chunks) {
-        const currentResults = await Promise.all(chunk.map(async (domain) => {
+    const text = await streamAsPromise(fs.createReadStream(inputPathName));
+    const domains = text.replace('\r', '').split('\n').map((row) => row.split(',')[1]);
+    return domains;
+}
 
+async function createCsvHeader(outputhPathName) {
+
+    const writeFileAsPromise = (row) => {
+        return new Promise((resolve, reject) => {
+            fs.writeFile(outputhPathName, row, 'utf8', function (err) {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(null);
+                }
+            });
+        })
+    }
+
+    await writeFileAsPromise('domain, hsts\n')
+}
+
+async function appendRows(outputhPathName, rows) {
+
+    const csvRows = [];
+    for (const row of rows) {
+        const values = Object.values(row).join(','); 
+        csvRows.push(values) 
+    }
+
+    const rowsString = csvRows.join('\n') + '\n';
+    await new Promise((resolve, reject) => {
+        fs.appendFile(outputhPathName, rowsString, 'utf8', function (err) {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(null);
+            }
+        });
+    })
+}
+
+async function extractHSTS(domains, outputhPathName, size) {
+
+    const splitter = () => {
+
+        let currentIndex = 0;
+        const chunks = [];
+        while (currentIndex <= domains.length - 1) {
+            chunks.push(domains.slice(currentIndex, currentIndex + size));
+            currentIndex += size;
+        }
+        return chunks;
+    }
+
+    const createDict = (domain, hsts) => {
+        return {
+            domain: domain, 
+            hsts: hsts
+        }
+    }
+
+    const createChunksOfPromises = (domainChunk) => {
+        return Promise.all(domainChunk.map(async (domain) => {
             const page = await browser.newPage();
             let value = null;
             try {
-                const response = await page.goto("https://" + domain);
+                const response = await page.goto("https://" + domain, { timeout: 60000, waitUntil: 'networkidle2' });
                 const headers = response.headers();
-                value = createDict(domain, headers['strict-transport-security'] ?? "undefined", headers['content-security-policy'] ?? "undefined");
+                value = createDict(domain, headers['strict-transport-security'] ?? "undefined");
             } catch (error) {
-                value = createDict(domain, "NA", "NA")
+                value = createDict(domain, "NA")
             } finally {
                 await page.close();
             }
-
-            return finalStep(value);
+            return value;
         }));
-        
-        csvmaker("rows", currentResults, path_out)
-        resolved.push(currentResults);
     }
-    return resolved.flat();
+
+    const logger = new Logger();
+    const browser = await puppeteer.launch({
+        headless: false, 
+        timeout: 15000
+    });
+
+    const chunks = splitter();
+    await createCsvHeader(outputhPathName);
+    
+    for (const chunk of chunks) {
+        const results = await createChunksOfPromises(chunk);
+        results.forEach((res) => logger.update(res));
+        logger.logState(domains.length);
+        await appendRows(outputhPathName, results);
+    }
+
+    await browser.close();
 }
 
-const results = await fetchResults(domains);
+async function execProgram(inputPathName, outputhPathName) {
 
-browser.disconnect();
-browser.close();
-
-function csvmaker(mode, data, name) { 
-  
-    // Empty array for storing the values 
-    const csvRows = []; 
-  
-    if (mode === "header") {
-        const headers = Object.keys(data[0]); 
-        csvRows.push(headers.join(','));
-        const rowsString = csvRows.join('\n') + '\n';
-        fs.writeFile(name, rowsString, 'utf8', function (err) {
-            if (err) {
-                console.log('Some error occured - file either not saved or corrupted file saved.');
-            }
-        });
-    }
-  
-    if (mode === "rows") {
-
-        // Pushing Object values into array with comma separation 
-        for (const obj of data) {
-            const values = Object.values(obj).join(','); 
-            csvRows.push(values) 
-        }
-
-        const rowsString = csvRows.join('\n') + '\n';
-        fs.appendFile(name, rowsString, 'utf8', function (err) {
-            if (err) {
-                console.log('Some error occured - file either not saved or corrupted file saved.');
-            }
-        });
-    }
-} 
-  
-function createDict(domain, hstsResult, cspResult) { 
-  
-    // JavaScript object 
-    const data = { 
-        domain: domain, 
-        hsts: hstsResult,
-        csp: cspResult
-    };
-  
-    return data;
+    const CHUNK_SIZE = 20;
+    const domains = await extractDomainsFromCsv(inputPathName);
+    await extractHSTS(domains, outputhPathName, CHUNK_SIZE);
 }
 
-function splitInChunks(array, size) {
-
-    let currentIndex = 0;
-    const chunks = [];
-
-    while (currentIndex <= array.length - 1) {
-        chunks.push(array.slice(currentIndex, currentIndex + size));
-        currentIndex += size;
-    }
-
-    return chunks;
-}
+await execProgram(process.argv[2], process.argv[3]);
+process.exit(1);
