@@ -131,7 +131,6 @@ async function extractHSTS(domains, outputhPathName, size) {
 
     const logger = new Logger();
     const browser = await puppeteer.launch({
-        headless: true, 
         timeout: 15000
     });
 
