@@ -37,26 +37,6 @@ async function appendRows(outputhPathName, rows) {
     })
 }
 
-async function write(outputhPathName, rows) {
-
-    const csvRows = [];
-    for (const row of rows) {
-        const values = Object.values(row).join(','); 
-        csvRows.push(values) 
-    }
-
-    const rowsString = csvRows.join('\n') + '\n';
-    await new Promise((resolve, reject) => {
-        fs.writeFile(outputhPathName, rowsString, 'utf8', function (err) {
-            if (err) {
-                reject(err);
-            } else {
-                resolve(null);
-            }
-        });
-    })
-}
-
 async function extractDomainsFromCsv(inputPathName) {
 
     const streamAsPromise = (stream) => {
@@ -71,38 +51,6 @@ async function extractDomainsFromCsv(inputPathName) {
     const text = await streamAsPromise(fs.createReadStream(inputPathName));
     const domains = text.replace('\r', '').split('\n').map((row) => row.split(',')[1].replace('\r', ''));
     return domains;
-}
-
-async function extractReasonableDomains(payLevelDomainPath, domainsPath, atLeastSubdomains) {
-
-    const payLevelDomains = await extractDomainsFromCsv(payLevelDomainPath);
-    const domains = await extractDomainsFromCsv(domainsPath);
-    const subdomains = deleteFirstFromSecond(payLevelDomainPath, domains);
-
-    let line = 1;
-    let total = 0;
-    const domainsWithAtLeastOneSub = payLevelDomains.map((payLevelDomain) => {
-
-        const filtered = subdomains.filter((subdomain) => subdomain.endsWith(`.${payLevelDomain}`));
-        const count = filtered.length;
-        total = count >= atLeastSubdomains ? total + 1 : total;
-
-        process.stdout.write("\r\x1b[K");
-        process.stdout.write(`Line=${line++} Total=${total}`);
-
-        if (count >= atLeastSubdomains) {
-            return filtered.map((d) => {
-                return {
-                    domain: payLevelDomain,
-                    subdomain: d
-                }
-            });
-        } else {
-            return null
-        }
-    });
-
-    return domainsWithAtLeastOneSub;
 }
 
 function splitter(domains, size) {
