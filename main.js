@@ -117,7 +117,7 @@ async function extractHSTS(domains, outputhPathName, size) {
             const page = await browser.newPage();
             let value = null;
             try {
-                const response = await page.goto("https://" + domain, { timeout: 60000, waitUntil: 'networkidle2' });
+                const response = await page.goto("https://" + domain, { timeout: 20000, waitUntil: 'networkidle2' });
                 const headers = response.headers();
                 value = createDict(domain, headers['strict-transport-security'] ?? "undefined");
             } catch (error) {
