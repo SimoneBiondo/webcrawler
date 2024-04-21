@@ -1,0 +1,1 @@
+TODO: explain chrome version, os system, node version and puppeteer; What are the list limitations?
