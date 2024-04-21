@@ -1,8 +1,8 @@
 import puppeteer from 'puppeteer';
+import axios from 'axios';
 import fs from 'fs'
 
 // Logger
-
 class Logger {
 
     #ANSI_RESET = '\x1b[0m';
@@ -92,25 +92,25 @@ async function appendRows(outputhPathName, rows) {
     })
 }
 
+function createDict(domain, hsts) {
+    return {
+        domain: domain, 
+        hsts: hsts
+    }
+}
+
+function splitter(domains, size) {
+
+    let currentIndex = 0;
+    const chunks = [];
+    while (currentIndex <= domains.length - 1) {
+        chunks.push(domains.slice(currentIndex, currentIndex + size));
+        currentIndex += size;
+    }
+    return chunks;
+}
+
 async function extractHSTS(domains, outputhPathName, size) {
-
-    const splitter = () => {
-
-        let currentIndex = 0;
-        const chunks = [];
-        while (currentIndex <= domains.length - 1) {
-            chunks.push(domains.slice(currentIndex, currentIndex + size));
-            currentIndex += size;
-        }
-        return chunks;
-    }
-
-    const createDict = (domain, hsts) => {
-        return {
-            domain: domain, 
-            hsts: hsts
-        }
-    }
 
     const createChunksOfPromises = (domainChunk) => {
         return Promise.all(domainChunk.map(async (domain) => {
@@ -131,11 +131,11 @@ async function extractHSTS(domains, outputhPathName, size) {
 
     const logger = new Logger();
     const browser = await puppeteer.launch({
-        headless: false, 
+        headless: true, 
         timeout: 15000
     });
 
-    const chunks = splitter();
+    const chunks = splitter(domains, size);
     await createCsvHeader(outputhPathName);
     
     for (const chunk of chunks) {
@@ -148,11 +148,80 @@ async function extractHSTS(domains, outputhPathName, size) {
     await browser.close();
 }
 
-async function execProgram(inputPathName, outputhPathName) {
+async function axiosResults(domains) {
+
+    const logger = new Logger();
+    const chunks = splitter(domains, 20);
+
+    await createCsvHeader("axiosResults.csv");
+
+    for (const chunk of chunks) {
+
+        const currentResults = await Promise.all(chunk.map(async (d) => {
+            let res = null;
+            try {
+                const resp = await axios.get("https://" + d);
+                res = createDict(d, resp.headers['strict-transport-security'] ?? "undefined");
+            } catch (error) {
+                res = createDict(d, "NA")
+            }
+            return res;
+        }));
+
+        currentResults.forEach((res) => logger.update(res));
+        logger.logState(domains.length);
+        await appendRows("axiosResults.csv", currentResults);
+    }
+
+}
+
+async function fetchResults(domains) {
+
+    const logger = new Logger();
+    const chunks = splitter(domains, 20);
+
+    await createCsvHeader("fetchResults.csv");
+
+    for (const chunk of chunks) {
+
+        const currentResults = await Promise.all(chunk.map(async (d) => {
+            let res = null;
+            try {
+                const resp = await fetch("https://" + d);
+                res = createDict(d, resp.headers.get('strict-transport-security') ?? "undefined");
+            } catch (error) {
+                res = createDict(d, "NA")
+            }
+            return res;
+        }));
+
+        currentResults.forEach((res) => logger.update(res));
+        logger.logState(domains.length);
+        await appendRows("fetchResults.csv", currentResults);
+    }
+
+}
+
+async function runTest(inputPathName, outputhPathName) {
 
     const CHUNK_SIZE = 20;
     const domains = await extractDomainsFromCsv(inputPathName);
+
+    console.log("\n--- PUPPETEER ---\n");
     await extractHSTS(domains, outputhPathName, CHUNK_SIZE);
+
+    console.log("\n--- AXIOS ---\n");
+    await axiosResults(domains);
+
+    console.log("\n--- FETCH ---\n");
+    await fetchResults(domains);
+
+    console.log("\n")
+}
+
+async function execProgram(inputPathName, outputhPathName) {
+
+    await runTest(inputPathName, outputhPathName);
 }
 
 await execProgram(process.argv[2], process.argv[3]);
