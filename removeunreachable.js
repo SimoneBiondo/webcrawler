@@ -86,4 +86,4 @@ async function removeUselessData(inputPathName, outputhPathName) {
     await writeResults(outputhPathName, ["Domain, HSTS"], filteredData);
 }
 
-await removeUselessData("test-results.csv", "cleaned-results.csv");
+await removeUselessData("final-results-unreachable.csv", "final-results-cleaned.csv");
